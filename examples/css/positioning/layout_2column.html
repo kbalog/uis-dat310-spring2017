@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Example: 2-column layout using absolute positioning</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #box_1 {
+            height: 200px;
+            width: 20%;
+            background: #ee3e64;
+        }
+
+        #box_2 {
+            position: absolute;
+            top: 0;
+            left: 20%; /* same as the width of #box_1 */
+            width: 80%;
+            height: 200px;
+            background: #44accf;
+        }
+    </style>
+</head>
+<body>
+<div id="box_1"></div>
+<div id="box_2"></div>
+</body>
+</html>

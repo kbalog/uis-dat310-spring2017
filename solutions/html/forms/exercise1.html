@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #1: Simple form</title>
+</head>
+<body>
+<form action="">
+    <div>
+        <label>First name
+            <input type="text" name="firstname" size="10" maxlength="20" required/>
+        </label>
+    </div>
+    <div>
+        <label>Last name
+            <input type="text" name="lastname" size="10" maxlength="20" required/>
+        </label>
+    </div>
+    <div>
+        <label>
+            Email address
+            <input type="email" name="email" size="20" maxlength="35" required/>
+        </label>
+    </div>
+    <div>
+        <label>Male
+            <input type="radio" name="gender" value="male"/>
+        </label>
+        <label>Female
+            <input type="radio" name="gender" value="female"/>
+        </label>
+    </div>
+    <div>
+        <label>Message
+            <textarea name="comment" placeholder="Any comments?"></textarea>
+        </label>
+    </div>
+    <div>
+        <input type="submit" value="Send"/>
+    </div>
+</form>
+</body>
+</html>
