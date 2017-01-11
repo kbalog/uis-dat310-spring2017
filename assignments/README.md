@@ -1,7 +1,7 @@
 # Assignments
 
 | Assignment | Announced | Deadline | Points |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | #1 HTML | 12/01 | 20/01 12:00 | 1A=0.7p, 1B=0.8p, 1A+B=0.9p |
 | #2 CSS | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p |
 | #3 Project I. | 26/01 | 10/02 12:00 | 3=1.5p |
