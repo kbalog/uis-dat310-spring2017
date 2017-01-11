@@ -1,13 +1,23 @@
 # Assignments
 
+| Assignment | Announced | Deadline | Points |
+| -- | -- | -- | -- |
+| #1 HTML | 12/01 | 20/01 12:00 | 1A=0.7p, 1B=0.8p, 1A+B=0.9p |
+| #2 CSS | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p |
+| #3 Project I. | 26/01 | 10/02 12:00 | 3=1.5p |
+| #4 JavaScript | 02/02 | 10/02 12:00 | 4A=0.7p, 4B=1.2p, 4A+B=1.3p |
+| #5 jQuery | 16/02 | 24/02 12:00 | 5A=0.7p, 5B=1.2p, 5A+B=1.3p |
+
+When there are two options for an assignment (A and B), you can decide to do either of them or both.
+
 ## Requirements
 
   - 10 assignments in total
   - Each assignment is worth different amount of points
   - Binary assessments: approved (godkjent) or not approved (ikke godjkent)
   - At least 8 points needed (approx. 8 assignments) to be allowed to take the exam
-    - At least 4 points from assignments 1-5
-    - At least 4 points from assignments 6-10
+    - At least 4 points from Assignments #1-#5
+    - At least 4 points from Assignments #6-#10
 
 ## Rules
 
