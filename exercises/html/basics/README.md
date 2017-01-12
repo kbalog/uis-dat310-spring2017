@@ -44,14 +44,14 @@ Create an ordered list nested inside an unordered list.
   - Tags to use: `<ol>`, `<ul>`, `<li>`.
 
 ![Exercise4](images/exercise4.png)
-  
+
 
 ## Exercise #4b: Advanced lists
 
 Building on the previous exercise, make the following changes:
 
   - Use squares as list markers (instead of bullets) for the unordered list.
-  - Use roman lowercase numbers for numbering the nested ordered list. 
+  - Use roman lowercase numbers for numbering the nested ordered list.
   - Add another nested list under "Orange C", with three items (red, green, blue), numbered with uppercase letters. The numbering should start with "Z" and go in descending order (Z, Y, X, ...).
   - See [this page](http://www.w3schools.com/html/html_lists.asp) for how to change list markers.
   - See [this page](http://www.w3schools.com/tags/tag_ol.asp) for reference on ordered lists.
@@ -149,4 +149,16 @@ Create the following HTML page:
     * The links should open in a new browser window.
   - The cells in the bottom row are merged together and contain a paragraph with the text "If you wanted an intelligent answer, you should have given me an intelligent question."
   - You don't need to use any CSS in this exercise! (The table borders in the figure are just for illustration.)
-  
+
+
+## Exercise #12: Your favorite YouTube videos
+
+  - Structure the content of the page using HTML5 elements
+  - Make a `<header>` element for the page title "My favorite YouTube videos" (which should be in `<h1>`)
+  - Code a `<nav>` element that contains the links to videos. Clicking on a link should jump to that video within the page.
+  - Make a `<main>` element that contains three `<article>` elements.  Each article should contain
+    * A title in `<h2>`
+    * An embedded YouTube video (using `<iframe>`)
+  - Configure the `<footer>` element to contain a copyright notice displayed in small font size.
+
+  ![Exercise12](images/exercise12.png)
