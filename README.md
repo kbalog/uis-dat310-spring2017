@@ -10,7 +10,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | Date | Topic | Resources |
 | --- | --- | --- |
 | 09/01 Mon | HTML (basics) / Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
-| 12/01 Thu | HTML (basics) / Part II. | |
+| 12/01 Thu | HTML (basics) / Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
 | 13/01 Fri | Lab | |
 | 16/01 Mon | CSS Part I. (properties) | |
 | 19/01 Thu | CSS Part II. (selectors) | |
