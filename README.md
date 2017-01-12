@@ -3,6 +3,7 @@
 This repository contains examples and exercises from the 2017 spring DAT310 Web programming course at the University of Stavanger.
 
   - [Assignments](assignments/)
+  - [Online course admin](http://bit.ly/uis-dat310)
   - Student assistants contact: dat310help@googlegroups.com
 
 ## Schedule
