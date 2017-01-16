@@ -12,6 +12,8 @@ When there are two options for an assignment (A and B), you can decide to do eit
 
 All questions related to assignments should be sent to dat310help@googlegroups.com.
 
+[This document](../HOWTO_GitHub.md) explains how to hand in the assignments on GitHub. For the codecademy assignments you don't need to submit anything.
+
 ## Requirements
 
   - You need to register at the [online course admin site](http://bit.ly/uis-dat310) by 16/01 16:00

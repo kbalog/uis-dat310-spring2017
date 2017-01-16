@@ -2,7 +2,7 @@
 
 This repository contains examples and exercises from the 2017 spring DAT310 Web programming course at the University of Stavanger.
 
-  - [Assignments](assignments/)
+  - [Assignments](assignments/) (and [how to hand them in on GitHub](HOWTO_GitHub.md))
   - [Online course admin](http://bit.ly/uis-dat310)
   - Student assistants contact: dat310help@googlegroups.com
 
@@ -13,7 +13,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 09/01 Mon | HTML (basics) / Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
 | 12/01 Thu | HTML (basics) / Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
 | 13/01 Fri | Lab | |
-| 16/01 Mon | CSS Part I. (properties) | |
+| 16/01 Mon | CSS Part I. (properties) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-i), [examples](examples/css/properties), [exercises](exercises/css/properties), [solutions](solutions/css/properties) |
 | 19/01 Thu | CSS Part II. (selectors) | |
 | 20/01 Fri | Lab | |
 | 23/01 Mon | CSS Part III. (positioning) | |
