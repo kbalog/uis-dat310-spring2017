@@ -2,7 +2,7 @@
 
 ## Exercise #1: Page-level vs. inline CSS
 
-  - Take the starting HTML file [exercise1.html].
+  - Take the starting HTML file [exercise1.html](exercise1.html).
   - Change the default paragraph font size to 14pt by adding `font-size: 14pt;` (that is, page-level CSS).
   - Change the font color of the second paragraph to black by defining a style attribute (that is, use inline CSS).
 
@@ -33,7 +33,7 @@
 
 ## Exercise #3: Styling source code
 
-  - Take the starting HTML file [exercise3.html].
+  - Take the starting HTML file [exercise3.html](exercise3.html).
   - Formatting source code text (inside `<pre>`) using **page-level CSS**:
     * Note: the content inside the `<pre>` element is displayed in a fixed-width font, and it preserves both spaces and line breaks.
     * Use `font-family: Consolas, Menlo, Monaco, Courier New, monospace;`.
