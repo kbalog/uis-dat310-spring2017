@@ -2,6 +2,7 @@
 
 ## Exercise #1: Page-level vs. inline CSS
 
+  - Take the starting HTML file [exercise1.html].
   - Change the default paragraph font size to 14pt by adding `font-size: 14pt;` (that is, page-level CSS).
   - Change the font color of the second paragraph to black by defining a style attribute (that is, use inline CSS).
 
@@ -10,7 +11,7 @@
 
 ## Exercise #2: Styling text
 
-  - Create a html page with 
+  - Create a html page with
     * a main heading (h1),
     * a `div` element, with a second-level heading (h2) and two paragraphs in it.
   - Set the fonts, sizes, colors, text alignment using **inline CSS** as follows:
@@ -32,6 +33,7 @@
 
 ## Exercise #3: Styling source code
 
+  - Take the starting HTML file [exercise3.html].
   - Formatting source code text (inside `<pre>`) using **page-level CSS**:
     * Note: the content inside the `<pre>` element is displayed in a fixed-width font, and it preserves both spaces and line breaks.
     * Use `font-family: Consolas, Menlo, Monaco, Courier New, monospace;`.
@@ -54,6 +56,5 @@
   - Set the background of the first paragraph to white and add a "confidential" stamp as background using **inline CSS**.
     * The image is _images/confidential.jpg_
     * Use [background-repeat](http://www.w3schools.com/cssref/pr_background-repeat.asp) to have the stamp displayed only once.
-    
+
 ![Exercise3](images/exercise4.png)
-    
