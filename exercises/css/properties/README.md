@@ -51,10 +51,21 @@
 
 ## Exercise #4: Backgrounds and colors
 
-  - Create a page with three paragraphs of text (you can take Exercise #1)
+  - Create a page with three paragraphs of text (you can take Exercise #1).
   - Set the background of all paragraps to using **page-level CSS**.
   - Set the background of the first paragraph to white and add a "confidential" stamp as background using **inline CSS**.
     * The image is _images/confidential.jpg_
     * Use [background-repeat](http://www.w3schools.com/cssref/pr_background-repeat.asp) to have the stamp displayed only once.
 
-![Exercise3](images/exercise4.png)
+![Exercise4](images/exercise4.png)
+
+
+## Exercise #5: Advanced table styling
+
+  * Create a table with 2 rows and 3 columns.
+  * Set 5px padding for table cells.
+  * Have 10px space in between the cells (see [border-spacing](http://www.w3schools.com/cssref/pr_border-spacing.asp)).
+  * Set a 1px solid black border for the cells.
+  * Pro: use round corners and drop shadow.
+
+![Exercise5](images/exercise5.png)
