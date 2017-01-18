@@ -9,8 +9,8 @@
 There are three GitHub repositories:
 
   * [kbalog/web-programming](https://github.com/kbalog/web-programming/): (i.e., this repository) examples and exercises used during the lectures (public)
-  * [uis-dat310/{yourname}-assignments](https://github.com/uis-dat310/): your submissions for the assignments ({yourname} is to be substituted with the username you registered on GitHub) (private)
-  * [uis-dat310/assignments-2017](https://github.com/uis-dat310/assignments-2017): contains the reference solutions to the assignments (posted after the deadline has passed) (private)
+  * [uis-dat310-spring2017/{yourname}-assignments](https://github.com/uis-dat310-spring2017/): your submissions for the assignments ({yourname} is to be substituted with the username you registered on GitHub) (private)
+  * [uis-dat310-spring2017/assignments-2017](https://github.com/uis-dat310-spring2017/assignments-2017): contains the reference solutions to the assignments (posted after the deadline has passed) (private)
 
 Private means that you need to sign up on the [Online Course Admin](http://bit.ly/uis-dat310) to get access to these repositories. (Note that the private repositories will be available only after 17/01!)
 
