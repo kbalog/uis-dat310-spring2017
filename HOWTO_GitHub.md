@@ -27,6 +27,8 @@ Alternatively, you can always just open the exercise files on GitHub and copy-pa
 This is your private repository; no one will (or can) make changes here but you. Clone this repository on your computer, add/edit the files in the folder corresponding to the given assignment, then commit (and push/sync) the changes. You can make sure that your changes have been submitted by checking the contents on the web interface:
 https://github.com/uis-dat310-spring2017/{username}-assignments
 
+  * If the link does not work, then you might have to accept the GitHub invitation first (this is to be done only once). Go to https://github.com/uis-dat310-spring2017, where you should see an Accept button. Then, you will be able to access your repository.
+
 
 ### Assignments (assignments)
 
