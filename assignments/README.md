@@ -3,7 +3,7 @@
 | Assignment | Announced | Deadline | Points |
 | --- | --- | --- | --- |
 | [#1 HTML](assignment-1/) | 12/01 | 20/01 12:00 | 1A=0.7p, 1B=0.8p, 1A+B=0.9p |
-| #2 CSS | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p |
+| []#2 CSS](assignment-2/) | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p |
 | #3 Project I. | 26/01 | 10/02 12:00 | 3=1.5p |
 | #4 JavaScript | 02/02 | 10/02 12:00 | 4A=0.7p, 4B=1.2p, 4A+B=1.3p |
 | #5 jQuery | 16/02 | 24/02 12:00 | 5A=0.7p, 5B=1.2p, 5A+B=1.3p |
