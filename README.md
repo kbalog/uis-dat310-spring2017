@@ -14,7 +14,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 12/01 Thu | HTML (basics) / Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
 | 13/01 Fri | Lab | |
 | 16/01 Mon | CSS Part I. (properties) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-i), [examples](examples/css/properties), [exercises](exercises/css/properties), [solutions](solutions/css/properties) |
-| 19/01 Thu | CSS Part II. (selectors) | |
+| 19/01 Thu | CSS Part II. (selectors) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-ii), [examples](examples/css/selectors), [exercises](exercises/css/selectors), [solutions](solutions/css/selectors) |
 | 20/01 Fri | Lab | |
 | 23/01 Mon | CSS Part III. (positioning) | |
 | 26/01 Thu | HTML Forms | |
