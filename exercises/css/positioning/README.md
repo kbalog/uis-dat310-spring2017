@@ -57,3 +57,16 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 
 
 ![Exercise3](images/exercise3.png)
+
+
+## Exercise #4: Layout
+
+Change the 2-column layout from the examples such that:
+
+  - The "content part" (header, main, navigation) is center-aligned and takes 80% of the width of the browser window; it also has to be at least 600px but at most 960px wide (`min-width` and `max-width`).
+  - The navigation menu is on the right and is 200px wide.
+  - The main content is on the left; its width depends on the size of the window.
+  - Set background colors `#ffffcc` for the body, `white` for main, and `#e3e3e3` for the navigation menu.
+  - Add a footer with 30px height that is always visible and fills the entire width of the browser window.
+
+![Exercise4](images/exercise4.png)

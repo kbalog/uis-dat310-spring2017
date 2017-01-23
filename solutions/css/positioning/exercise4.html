@@ -2,10 +2,23 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Example: 2-column layout using absolute positioning</title>
+    <title>Exercise #4: Layout</title>
     <style>
         * {
             margin: 0px;
+        }
+
+        body {
+            background-color: #ffffcc;
+        }
+
+        #wrapper {
+            width: 80%;
+            margin: auto;
+            min-width: 600px;
+            max-width: 960px;
+            background-color: #e3e3e3;
+            position: relative;
         }
 
         header {
@@ -14,24 +27,38 @@
         }
 
         nav {
-            width: 20%;
+            width: 200px;
+            position: absolute;
+            right: 0px;
             padding-top: 20px;
         }
 
         main {
-            position: absolute;
-            top: 80px; /* same as the height of header */
-            left: 20%; /* same as the width of nav */
-            width: 80%;
             padding-top: 20px;
+            margin-right: 200px;
+            background-color: white;
         }
 
         p {
             margin: 1em;
         }
+
+        footer {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 30px;
+            background-color: #696969;
+            color: white;
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
+
+<div id="wrapper">
 
 <header>
     <h1>2-column layout</h1>
@@ -75,6 +102,10 @@
         egestas bibendum et lobortis justo. In in nulla mattis magna mollis pulvinar quis eget lacus. Suspendisse eu justo
         ipsum. Fusce ornare ligula eu orci porttitor, imperdiet mattis nisl tincidunt.</p>
 </main>
+
+</div>
+
+<footer>Accept our cookie policy.</footer>
 
 </body>
 </html>
