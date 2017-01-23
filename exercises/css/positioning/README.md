@@ -7,7 +7,7 @@ Then, implement the requirements below using page-level CSS.
 
   - Display all list elements next to each other.
   - Move the list to the left side of the page (by setting left padding to 0 on the list itself).
-  - Style the list elements as follows: 
+  - Style the list elements as follows:
     * Set some border and background color for the boxes around the list elements.
     * Set the text center-aligned within the boxes.
     * Set the width of the boxes to 3em.
@@ -57,18 +57,3 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 
 
 ![Exercise3](images/exercise3.png)
-
-
-## Exercise #4: Webshop
-
-Complete the missing CSS parts in [exercise4.html](exercise4.html) such that it is displayed exactly as on the screenshot below. You don't need to edit the HTML structure.
-
-  - Three products per row, with 10px spacing between the product boxes.
-  - Product box is 260x370px (excluding borders); the images are 250x250px.
-  - Price is shown in the bottom right corner. 
-  - Special deals are shown in the top right corner of the product boxes
-    * Use a 60x40px box that overlays the product image (use z-index).
-    * The text in the box has to be center-aligned both horizontally and vertically.
-
-
-![Exercise4](images/exercise4.png)

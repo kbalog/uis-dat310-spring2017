@@ -4,28 +4,54 @@
     <meta charset="UTF-8">
     <title>Example: 2-column layout using absolute positioning</title>
     <style>
-        body {
+        * {
             margin: 0px;
         }
 
-        #box_1 {
-            height: 200px;
-            width: 20%;
-            background: #ee3e64;
+        header {
+            background-color: #ebde52;
+            /* padding: 15px; */
+            height: 80px;
         }
 
-        #box_2 {
+        nav {
+            height: 200px;
+            width: 20%;
+            height: 100%;
+            border: 2px solid #ee3e64;
+        }
+
+        main {
             position: absolute;
-            top: 0;
-            left: 20%; /* same as the width of #box_1 */
+            top: 80px; /* same as the height of header */
+            left: 20%; /* same as the width of nav */
             width: 80%;
             height: 200px;
+            padding: 15px;
             background: #44accf;
         }
     </style>
 </head>
 <body>
-<div id="box_1"></div>
-<div id="box_2"></div>
+
+<header>
+    <h1>2-column layout</h1>
+</header>
+
+<nav>
+    <ul>
+        <li>Item #1</li>
+        <li>Item #2</li>
+        <li>Item #3</li>
+    </ul>
+</nav>
+
+<main>
+    <p>Dolor consuetudium putamus nunc illum at. Qui vel accumsan zzril odio feugait. Iriure nobis aliquam est qui
+        nam. Est ii ad et quod consuetudium. Eu vero tation placerat illum dolore. Suscipit saepius aliquip commodo
+        erat me. Consequat littera autem anteposuerit ullamcorper dolor. Legunt doming dignissim facer futurum
+        quinta. Consuetudium ad magna tempor ut suscipit. Typi aliquam ex esse quarta qui.</p>
+</main>
+
 </body>
 </html>
