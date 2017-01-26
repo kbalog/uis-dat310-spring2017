@@ -39,7 +39,7 @@ Create the form below.
   - Label the fields using `<label>`.
     * Because of the follow-up exercise, keep labels *separate from the form control* and use the `for` attribute.
   - Group the fields using `<fieldset>`.
-  - Add a hidden field `campaign_id`
+  - Add a hidden field `campaign_id`.
   - Set the form action to `http://www3.ux.uis.no/~balog/dat310/formtest.php` and check what happens upon submission.
 
 ![Exercise3](images/exercise3.png)
@@ -57,5 +57,5 @@ Create the form below.
 
 ## Exercise #5: HTML5 form elements
 
-Try some of the [HTML5 input types](www.w3schools.com/html/html_form_input_types.asp), e.g., color, url, search, date, etc.
+Try some of the other [HTML5 input types](www.w3schools.com/html/html_form_input_types.asp), e.g., color, url, search, date, etc.
 How are these displayed in different browsers?
