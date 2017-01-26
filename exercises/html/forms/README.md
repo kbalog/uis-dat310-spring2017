@@ -28,12 +28,16 @@ Create the form below.
     * Gender (male/female) as radio buttons (by default none of them is selected).
   - List of magazines to be selected with checkboxes.
   - Subscription period as a select list: 6, 12, 18, or 24 months.
-  - The submit button is labeled as "Subscribe".
+  - The submit button is labeled as _Subscribe_.
+
+![Exercise2](images/exercise2.png)
 
 
 ## Exercise #3: Subscription form (2)
 
   - Label and group the fields
+  - Add a hidden field `campaign_id`
+  - Set the form action to `http://www3.ux.uis.no/~balog/dat310/formtest.php` and check what happens upon submission.
 
 
 ## Exercise #4: Subscription form (3)
