@@ -1,17 +1,22 @@
 # HTML forms
 
-## Exercise #1: Simple form
 
-Create the form below.
+## Exercise #1: Login form
 
-  - First and last name have a width of 10 characters; the user may enter up to 20 characters in each.
-  - Email has a width of 20 characters; the user may enter an email address up to 35 characters long.
-    * Use the HTML5 email input type.
-  - First and last names, and email are obligatory. The other fields are optional.
-  - Label the input elements using `<label>`.
-  - The submit button should have the label _Send_.
+  - Create a login form with two fields and a submit button
+  - The first field is called `username`.
+  - The second field is called `pw`.
+  - The submit button should have the label _Login_.
+  - Leave the `action` attribute of the form empty
 
-![Exercise1](images/exercise1.png)
+  ![Exercise1](images/exercise1.png)
+
+
+## Exercise #1b: Sending form data
+
+  - Set the `action` of the previous form to `http://www3.ux.uis.no/~balog/dat310/formtest.php`.
+  - Check what happens upon submitting the form.
+  - Which form `method` should you use in this case: `GET` or `POST`?
 
 
 ## Exercise #2: Subscription form
@@ -24,15 +29,24 @@ Create the form below.
   - List of magazines to be selected with checkboxes.
   - Subscription period as a select list: 6, 12, 18, or 24 months.
   - The submit button is labeled as "Subscribe".
-  - Use css to style the form:
-    * Set a fixed width for the fieldsets, apply a background color, and align them in the middle of the page. 
-    * Align the fields. (Hint: you can set the width property of the `<label>` tag.)
-    * Align the submit button in the middle of the page.
-
-![Exercise2](images/exercise2.png)
 
 
-## Exercise #3: HTML5 form elements
+## Exercise #3: Subscription form (2)
+
+  - Label and group the fields
+
+
+## Exercise #4: Subscription form (3)
+
+- Use css to style the form you created in the previous exercise:
+  * Set a fixed width for the fieldsets, apply a background color, and align them in the middle of the page.
+  * Align the fields. (Hint: you can set the width property of the `<label>` tag.)
+  * Align the submit button in the middle of the page.
+
+![Exercise4](images/exercise4.png)
+
+
+## Exercise #5: HTML5 form elements
 
 Try some of the [HTML5 input types](www.w3schools.com/html/html_form_input_types.asp), e.g., color, url, search, date, etc.
 How are these displayed in different browsers?
