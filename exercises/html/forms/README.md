@@ -35,9 +35,14 @@ Create the form below.
 
 ## Exercise #3: Subscription form (2)
 
-  - Label and group the fields
+  - Extend the form you created in the previous exercise.
+  - Label the fields using `<label>`.
+    * Because of the follow-up exercise, keep labels *separate from the form control* and use the `for` attribute.
+  - Group the fields using `<fieldset>`.
   - Add a hidden field `campaign_id`
   - Set the form action to `http://www3.ux.uis.no/~balog/dat310/formtest.php` and check what happens upon submission.
+
+![Exercise3](images/exercise3.png)
 
 
 ## Exercise #4: Subscription form (3)
