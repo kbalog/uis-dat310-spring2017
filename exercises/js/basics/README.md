@@ -67,3 +67,9 @@ Look at the different display examples and execute them by opening the files on 
   - Extend the BankAccount class from Exercise #4 such that all transactions are logged.
   - For each transaction, store date, transaction (deposit/withdrawal), old balance, new balance.
   - Use the built-in Array and Date classes.
+
+
+## Exercise #6b: Displaying transaction log
+
+  - Extend the previous exercise such that the transaction log is displayed in a HTML table (as opposed to writing it to the console).
+  - Use CSS to style the table.
