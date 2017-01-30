@@ -15,10 +15,10 @@ Look at the different display examples and execute them by opening the files on 
   - Write JS code that outputs the numbers from 1 to 10.
   - For the number 7 it should print the word "seven" instead.
   - Use the web developer console of the browser to see the results.
-  
+
 ![Exercise2](images/exercise2.png)
 
-  
+
 ## Exercise #2b: Lucky number seven, with a list
 
   - Solve the previous exercise, but instead of writing the output to the browser console, display it as an unordered HTML list (using `document.write()`).
@@ -33,6 +33,16 @@ Look at the different display examples and execute them by opening the files on 
   - Write a function `gcd(a,b)` that takes two integers as input and returns their greatest common divisor.
   - The simplest implementation is using [Euclid's algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#Implementations).
   - Call the function with values 48 and 18 and write the output to the console.
+
+
+## Exercise #3b: Prompting values
+
+  - Extend the previous exercise such that the integers `a` and `b` are entered by  the user.  Use the [prompt()](http://www.w3schools.com/jsref/met_win_prompt.asp) method for reading in the values.
+  - Write the result to the document.
+  - Pro: Extend the code so that only valid integers with a value greater than zero are accepted as input.  (Keep prompting for a number until it is valid.)
+
+![Exercise3b/1](images/exercise3b_1.png)
+![Exercise3b/2](images/exercise3b_2.png)
 
 
 ## Exercise #4: Bank account
