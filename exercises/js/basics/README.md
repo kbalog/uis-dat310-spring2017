@@ -73,3 +73,5 @@ Look at the different display examples and execute them by opening the files on 
 
   - Extend the previous exercise such that the transaction log is displayed in a HTML table (as opposed to writing it to the console).
   - Use CSS to style the table.
+
+![Exercise6b](images/exercise6b.png)

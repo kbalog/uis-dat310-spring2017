@@ -19,14 +19,17 @@ function deposit(amount) {
         amount: amount,
         date: new Date(),
         oldBalance: oldBalance,
-        newBalance: this.balance
+        newBalance: this.balance,
+        success: 1  // we can always deposit
     });
 }
 
 function withdraw(amount) {
     var oldBalance = this.balance;
+    var success = 0;
     if (this.balance >= amount) {
         this.balance -= amount;
+        success = 1;
     }
     else {
         console.log("Error: insufficient funds!");
@@ -38,7 +41,8 @@ function withdraw(amount) {
         amount: amount,
         date: new Date(),
         oldBalance: oldBalance,
-        newBalance: this.balance
+        newBalance: this.balance,
+        success: success
     });
 
 }
@@ -46,9 +50,10 @@ function withdraw(amount) {
 function printLog() {
     for (var i = 0; i < this.log.length; i++) {
         console.log(this.log[i].date
-        + "\t" + this.log[i].transaction
-        + "\t" + this.log[i].amount
-        + "\t" + this.log[i].oldBalance
-        + "\t" + this.log[i].newBalance);
+            + "\t" + this.log[i].transaction
+            + "\t" + this.log[i].amount
+            + "\t" + this.log[i].success
+            + "\t" + this.log[i].oldBalance
+            + "\t" + this.log[i].newBalance);
     }
 }
