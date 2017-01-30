@@ -65,7 +65,7 @@ Look at the different display examples and execute them by opening the files on 
 ## Exercise #6: Bank account with logging
 
   - Extend the BankAccount class from Exercise #4 such that all transactions are logged.
-  - For each transaction, store date, transaction (deposit/withdrawal), old balance, new balance.
+  - For each transaction, store date, transaction (deposit/withdrawal), old balance, new balance, and whether the transaction was successful.
   - Use the built-in Array and Date classes.
 
 
