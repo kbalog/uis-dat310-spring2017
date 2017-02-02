@@ -1,6 +1,6 @@
 # Assignment 4 - JavaScript
 
-You can choose between two assignments: 2A and 2B.
+You can choose between two assignments: 4A and 4B.
 
 ## 4A) Codeacademy
 
@@ -43,6 +43,8 @@ Commit and push the files to GitHub.
 
 
 # Øving 4 - JavaScript
+
+Du kan velge mellom to øvinger: 4A and 4B.
 
 ## 4A) Codeacademy
 
