@@ -20,18 +20,18 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 26/01 Thu | HTML Forms | [slides](https://speakerdeck.com/kbalog/web-programming-html-forms), [examples](examples/html/forms), [exercises](exercises/html/forms), [solutions](solutions/html/forms) |
 | 27/01 Fri | Lab | |
 | 30/01 Mon | JavaScript Part I. (basics) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-i), [examples](examples/js/basics), [exercises](exercises/js/basics), [solutions](solutions/js/basics) |
-| 02/02 Thu | JavaScript Part II. (events, DOM) | |
+| 02/02 Thu | JavaScript Part II. (events, DOM) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
 | 03/02 Fri | Lab | |
 | 06/02 Mon | Lab (extra time for assignments) | |
 | 09/02 Thu | Lab (extra time for assignments) | |
 | 10/02 Fri | Lab | |
-| 13/02 Mon | | |
-| 16/02 Thu | | |
+| 13/02 Mon | JavaScript Part III., jQuery I. | |
+| 16/02 Thu | jQuery II. | |
 | 17/02 Fri | Lab | |
-| 20/02 Mon | | |
-| 23/02 Thu | | |
+| 20/02 Mon | Python basics I. | |
+| 23/02 Thu | Python basics II. | |
 | 24/02 Fri | Lab | |
-| 27/02 Mon | | |
+| 27/02 Mon | Web protocols | |
 | 02/03 Thu | | |
 | 03/03 Fri | Lab | |
 | 06/03 Mon | Midterm exam /Part I. | |

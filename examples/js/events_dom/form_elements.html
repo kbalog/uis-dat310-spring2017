@@ -13,11 +13,18 @@
                 console.log("[" + country[i].value + "] " + country[i].text + (country[i].selected ? " selected" : ""));
             }
             console.log("Selected: " + country.options[country.selectedIndex].text);
+
+            var delivery = document.getElementsByName("delivery");
+            for (var i = 0; i < delivery.length; i++) {
+                console.log("[" + (delivery[i].checked ? "X" : " ") + "] " + delivery[i].value);
+            }
+
+            return false; // prevent the form from actually submitting
         }
     </script>
 </head>
 <body>
-<form name="test" action="" onsubmit="processForm();">
+<form name="test" action="" onsubmit="return processForm();">
     <div>
         <label>Name
             <input type="text" name="name" id="name" size="20" placeholder="Firstname, lastname"/>

@@ -35,7 +35,7 @@
 
   - Create a simple what-you-see-what-you-get text editor.
   - Change the text inside the "text" div according to the form selections.
-  - You can find the [starter HTML with the form controls here](exercise4.html).
+  - You can find the [starter HTML file with the form controls here](exercise4.html).
 
 ![Exercise4](images/exercise4.png)
 
