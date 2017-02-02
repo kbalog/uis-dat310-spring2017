@@ -11,26 +11,29 @@
         }
     </style>
     <script>
-        function changeColor(element) {
-            var color = element.style.backgroundColor;
-            if (color == "red") {
-                color = "green";
+        function changeColor() {
+            var color = this.style.backgroundColor;
+            var newcolor;
+            switch (color) {
+                case "red":
+                    newcolor = "green";
+                    break;
+                case "green":
+                    newcolor = "blue";
+                    break;
+                case "blue":
+                    newcolor = "red";
+                    break;
+                default: // this should never happen
+                    newcolor = "blue;";
             }
-            else if (color == "green") {
-                color = "blue";
-            }
-            else if (color == "blue") {
-                color = "red";
-            }
-            element.style.backgroundColor = color;
+            this.style.backgroundColor = newcolor;
         }
 
         function init() {
             var mydiv = document.getElementById("mydiv");
             mydiv.style.backgroundColor = "blue";
-            mydiv.onclick = function () {
-                changeColor(mydiv);
-            }
+            mydiv.onclick = changeColor;
         }
 
         window.onload = init;
