@@ -35,3 +35,10 @@ All questions related to assignments should be sent to dat310help@googlegroups.c
     - 2nd time: you’ll be dismissed from the course
   4. Once the solution has been posted, submissions can no longer be accepted
   5. No exceptions
+
+
+## Feedback
+
+You will receive feedback on each assignment; these may be viewed on the Online Course Admin site.  Reviewers may leave additional notes, which you can view by clicking the blue comment buttons.
+
+![Feedback](assignments_feedback.png)
