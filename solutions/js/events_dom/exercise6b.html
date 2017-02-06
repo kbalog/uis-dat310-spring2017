@@ -54,25 +54,7 @@
                 x[i].style.display = "none";
             }
             // assign events (we assume that all articles have the same DOM structure)
-            var articles = document.getElementsByTagName("article");
-            for (var i = 0; i < articles.length; i++) {
-                var divs = articles[i].getElementsByTagName("div");
-                var div_show = divs[0], div_text = divs[1];
-                var showlink = div_show.getElementsByTagName("a")[0]; // <a> within the <div>
-                var hidelink = div_text.getElementsByTagName("p")[1].getElementsByTagName("a")[0];  // <a> within the second <p> inside the <div>
-
-                // assign event handlers to divs
-                showlink.onclick = function() {
-                    show(div_text.id);
-                    hide(div_show.id);
-                    alert(div_text.id + " - " + div_show.id);
-                }
-                hidelink.onclick = function() {
-                    hide(div_text.id);
-                    show(div_show.id);
-                }
-
-            }
+            /* THIS IS FOR YOU TO COMPLETE */
         }
 
         window.onload = init;
