@@ -25,8 +25,8 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 06/02 Mon | Lab (extra time for assignments) | |
 | 09/02 Thu | Lab (extra time for assignments) | |
 | 10/02 Fri | Lab | |
-| 13/02 Mon | JavaScript Part III., jQuery I. | |
-| 16/02 Thu | jQuery II. | |
+| 13/02 Mon | jQuery I. | [slides](https://speakerdeck.com/kbalog/web-programming-jquery), [examples](examples/jquery), [exercises](exercises/jquery), [solutions](solutions/jquery) |
+| 16/02 Thu | JavaScript Part III., jQuery II. | |
 | 17/02 Fri | Lab | |
 | 20/02 Mon | Python basics I. | |
 | 23/02 Thu | Python basics II. | |
