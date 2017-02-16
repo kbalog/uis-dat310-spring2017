@@ -68,3 +68,17 @@ Solve the previous JavaScript exercise ([JS II / Exercise #5](../../solutions/js
 ![Exercise7/1](../../exercises/js/events_dom/images/exercise5_1.png)
 ![Exercise7/2](../../exercises/js/events_dom/images/exercise5_2.png)
 ![Exercise7/3](../../exercises/js/events_dom/images/exercise5_3.png)
+
+
+## Exercise #8: Card board
+
+  - When the "Deal cards" button is pressed, create cards and place them  in a grid layout, as specified in the select list (the format is `sizeCols x sizeRows`).
+  - Adjust the board's width dynamically according to the layout (such that the grey background doesn't extend to the full width of the page).
+    * I.e., the width of the `cardboard` div should be set to `sizeCols * cardWidth` px, where `cardWidth` includes border and margin.
+  - By clicking on a card, it should disappear with some effect, while leaving its original place empty.
+    * Hint: Mind that cards are dynamically created elements. Static event binding using `click()` will not work. Check out the [on() method](https://api.jquery.com/on/).
+  - The HTML and CSS files are already written, and you are not allowed to make changes to these.
+
+
+![Exercise8_1](images/exercise8_1.png)
+![Exercise8_2](images/exercise8_2.png)
