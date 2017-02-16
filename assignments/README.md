@@ -1,7 +1,7 @@
 # Assignments
 
 | Assignment | Announced | Deadline | Points | Solution |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | [#1 HTML](assignment-1/) | 12/01 | 20/01 12:00 | 1A=0.7p, 1B=0.8p, 1A+B=0.9p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/1b/solution) |
 | [#2 CSS](assignment-2/) | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/2b/solution) |
 | [#3 Webshop prototype](assignment-3/) | 26/01 | 10/02 12:00 | 3=1.5p | |
