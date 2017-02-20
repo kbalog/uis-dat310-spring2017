@@ -1,4 +1,4 @@
-# UiS DAT310 Web Programming course
+  # UiS DAT310 Web Programming course
 
 This repository contains examples and exercises from the 2017 spring DAT310 Web programming course at the University of Stavanger.
 
@@ -26,10 +26,10 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 09/02 Thu | Lab (extra time for assignments) | |
 | 10/02 Fri | Lab | |
 | 13/02 Mon | jQuery I. | [slides](https://speakerdeck.com/kbalog/web-programming-jquery), [examples](examples/jquery), [exercises](exercises/jquery), [solutions](solutions/jquery) |
-| 16/02 Thu | jQuery II. (exercises) | |
+| 16/02 Thu | jQuery II. (exercises) | [slides](https://speakerdeck.com/kbalog/web-programming-jquery), [examples](examples/jquery), [exercises](exercises/jquery), [solutions](solutions/jquery) |
 | 17/02 Fri | Lab | |
-| 20/02 Mon | Python basics I. | |
-| 23/02 Thu | Python basics II. | |
+| 20/02 Mon | Python Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-i), [exercises](exercises/python/part-1), [solutions](solutions/python/part-1) |
+| 23/02 Thu | Python Part II. | |
 | 24/02 Fri | Lab | |
 | 27/02 Mon | Web protocols | |
 | 02/03 Thu | | |
