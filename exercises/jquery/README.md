@@ -79,6 +79,16 @@ Solve the previous JavaScript exercise ([JS II / Exercise #5](../../solutions/js
     * Hint: Mind that cards are dynamically created elements. Static event binding using `click()` will not work. Check out the [on() method](https://api.jquery.com/on/).
   - The HTML and CSS files are already written, and you are not allowed to make changes to these.
 
-
 ![Exercise8_1](images/exercise8_1.png)
 ![Exercise8_2](images/exercise8_2.png)
+
+
+# Exercise 9: Countdown timer
+
+  - Make a countdown timer that counts back from the selected time. Check the starting files ([exercise9.html](exercise9.html) and [exercise9.js](exercise9.js) ) which already provide you with a select list and jQuery code for processing the user input.
+  - Show in large text the remaining time in MM:SS format and update the counter with each second elapsed.
+  - Show the remaining time in a progress bar.
+    * Use the [HTML5 progress element](https://www.w3schools.com/tags/tag_progress.asp) (but remember to progress "backwards").
+  - Display an alert when the time is up.
+
+![Exercise9](images/exercise9.png)
