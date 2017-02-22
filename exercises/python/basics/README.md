@@ -75,17 +75,48 @@ Write a function that takes a list of numbers as parameter, and returns the list
 Write a function that takes a string as parameter and return the reversed string. E.g., given the input `abcde` it should return `edcba`.
 
 
-## Exercise #4: Read file
+## Exercise #4: Create modules
 
-Write script that performs the following operations on the `my_file.txt` file:
+Create the two missing modules to make [E_4.py](E_4.py) run.
+
+Hints:
+  - Use `base64` to encode and decode a string.
+  - In Python 3, strings have one more format, called bytes: `string.decode()=bytes; bytes.encode = string`
+
+
+## Exercise #5: CardHolder class
+
+Write a python class of CardHolder. It should initialize a (bank) card holder's name and balance.
+Also, it should have functions for checking balance, and withdrawing and depositing a given amount.
+
+
+## Exercise #6: Output formatting
+
+Write a python class for string processing. It should have the following functions:
+
+  - Return a string's lowercase
+  - Return a string's uppercase
+  - Format print two strings by using key
+  - Change a camel-cased word like "WordVector" to "word_vector".
+
+Hints:
+
+  - Use `re.sub()` for camel-case conversion
+  - Read [the Regular Expression Operations](https://docs.python.org/3/library/re.html)
+
+
+## Exercise #7a: Read file
+
+Write a script that performs the following operations on the `my_file.txt` file:
 
   - Open and read this txt file
   - Print out the first line
   - Count the number of words
   - Count the number of lines
+  - Create a dictionary of words with their frequencies
 
 
-## Exercise #5a: JSON write
+## Exercise #7b: JSON write
 
 Make a dictionary from the following keys and values, and write that dictionary into a JSON file:
 
@@ -95,25 +126,9 @@ values = ["I", "love", "python", "very", "much"]
 ```
 
 
-## Exercise #5b: JSON read
+## Exercise #8: Exceptions
 
-Read the JSON file that you generated in Exercise 5a and print all key-value pairs.
+Write a function to parse a website's title (e.g., [this](http://www.pythonscraping.com/pages/page1.html)).
+Use try-except to capture the exceptions like the web can not be opened or the title does not exist.
 
-
-## Exercise #6: What does it do?
-
-What does the following piece of code print? (You can run it on your machine to see the difference and understand what happens.)
-
-```
-class Parent(object):
-	x = 1 class
-Child1(Parent):
-	pass class
-Child2(Parent):
-	pass
-print Parent.x, Child1.x, Child2.x
-Child1.x = 2
-print Parent.x, Child1.x, Child2.x
-Parent.x = 3
-print Parent.x, Child1.x, Child2.x
-```
+It is recommended that you make use of existing packages (BeautifulSoup or urllib.request) in this exercise.
