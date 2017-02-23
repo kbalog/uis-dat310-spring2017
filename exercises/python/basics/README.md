@@ -80,8 +80,8 @@ Write a function that takes a string as parameter and return the reversed string
 Create the two missing modules to make [E_4.py](E_4.py) run.
 
 Hints:
-  - Use `base64` to encode and decode a string.
-  - In Python 3, strings have one more format, called bytes: `string.decode()=bytes; bytes.encode = string`
+  - In python 2, there is a general string type for representing both text and binary data. But, in python 3, str is used to represent `unicode` text and `bytes` is used to represent binary data. Between `unicode` and `bytes`, we use encode and decode to convert one to the other, i.e., `string.decode()=bytes; bytes.encode = string`
+  - Use `base64` to encode and decode a binary string, [Ref](https://docs.python.org/2/library/base64.html).
 
 
 ## Exercise #5: CardHolder class
