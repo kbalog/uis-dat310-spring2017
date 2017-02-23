@@ -25,12 +25,12 @@ class Str_process:
 
     def camel_string(self, string):
         """Splits a CamelCased string into a new one, capitalized, where words are separated by blanks."""
-        s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', string)
-        return re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower().replace(" ", "_")
+        s1 = re.sub('(.)([A-Z])', r'\1_\2', string)
+        return s1.lower()
 
 
 x = Str_process()
 print(x.lowercase_string("MY"))
 print(x.uppercase_string("sfhkds"))
 x.format_print("a", "b")
-print(x.camel_string("MyWord"))
+print(x.camel_string("WordCatVector"))
