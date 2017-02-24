@@ -81,7 +81,70 @@ Du kan velge mellom to øvinger: 6A and 6B.
 
 Fullfør [Python kurset på codecademy](https://www.codecademy.com/learn/python).  
 
+## 6B) Karakterbok
 
-## 6B)
+Du skal lage et python-script som tar inn tre tekstfiler som input, og generere HTML filer basert på disse teksfilene.
 
-Kommer snart.
+### Input
+
+De tre inputfilene kalles `grades.tsv`, `courses.tsv`, og `students.tsv`. Disse filene inneholder data i et 'tab'-separert format.
+
+`grades.tsv` filen har følgende struktur, hvor `{}` inneholder variablene.
+```
+{student_no} {course_code} {semester} {grade}
+```
+
+Hver linje innheolder karakteren som en person fikk i et fag, ved et gitt semester.
+
+  - `student_no` er et tall
+  - `course_code` har formatet `XXXYYY`, hvor `X` er en stor bokstav (`[A..Z]`) og `Y` er et siffer (`[0..9]`)
+  - `semester` har tallverdier (`1..10`)
+  - `grade` har er en karakterer, A-F
+
+`courses.tsv` filen inneholder navnene til kursene, en linje per kurs:
+```
+{course_code} {course_name}
+```
+
+`student.tsv` filen inneholder navenen til studentene, en linje per student:
+```
+{student_no} {student_name}
+```
+
+
+### Output
+
+Du må fullføre `gradebook.py` filen, slik at den genererer et set med HTML filer, sortert i `output` mappen.
+
+  - `index.html`
+    * Denne filen inneholder en oversikt og linker til alle filer. Det skal være tre tabeller:
+        - Liste over alle studenter, med kollonene "student no" og "name", sortert etter "student no". Legg til en link på studentnummeret til studentens profilside
+        - Liste over alle emner, med kollonene "course code" og "name", sortert etter "course code". Legg til en link på emnekoden til emnets side.
+        - Liste over alle semestere, med kollonene "semester" og "kurs", sortert etter "semester". Emnekodene skal sorteres alfabetisk. Legg til en link på semesteret til semesterets side, og en link på hvert kurs til kursets side.
+
+  - `students/{student_no}.html`
+    * For hver student skal filen inneholde:
+        - Studentens navn og studentnummer
+        - En liste (tabell) over alle emner (med emnekode og emnenavn), sammen med karakter
+        - Emner skal være gruppert og sortert etter semester
+  - `courses/{course_code}.html`
+    * For hvert emne skal det være en liste med studentnummere og de tilhørende karakterer, sortert etter studentnummer. Det skal også være en tabell som summerer antall `A`er, `B`er, ... `F`er for det kurset ('nuller' kan ses bort i fra, for eksempel ved tilfeller hvor ingen har fått én `C`, trenger du ikke å vise `C` i tabellen)
+  - `semesters/{semester}.html`
+    * For hvert semester skal det være en fil som viser en tabell med liste over alle emner for det gitte semesteret, og totalt antall studenter (som har fått en karakter i emnet). Kurs skal være sortert alfabetisk etter emnekode.   
+
+
+Alle HTML filer skal være gyldige (`<head>`, `<body>`, etc) and skal bruke en felles CSS fil. CSS filen er gitt, men du har lov til å gjøre forandringer på denne om du ønsker. CSS filen `gradebook.css` er i samme mappe som `gradebook.py`.
+
+Du er blitt gitt et script, som (i) generer mappestrukturen (men ikke filene) og (ii) en tabell med liste over studenter til `index.html` filen. Du kan anta at de tre inputfilene (`grades.tsv`, `courses.tsv`, `students.tsv`) er i samme mappe som dette scriptet og at innholdet er i riktig format (som oppgitt tidligere i oppgaveteksten).
+
+I `sample_output` mappen, kan du finne outputet som hører til de gitte inputfilene; dette er hva scriptet ditt skal generere.
+
+
+### Innlevering
+
+Du må laste opp filene (mao., push to GitHub):
+
+  - Det ferdige scriptet `gradebook.py`
+  - Outputet som dette scriptet generert med det gitte inputdataen, altså innholdet i din `output` mappe.
+
+Husk at vi skal teste koden din med forskjellig input (men som har samme format)
