@@ -15,6 +15,8 @@ Test it by making a post request using curl.
 
 Make a HTML form with some input fields and set its action such that it is submitted to your Python HTTP server (using GET). Your server should output all input variables that are included in the request.
 
+  - Use [urllib.parse](https://docs.python.org/3/library/urllib.parse.html) to extract input variables from the URL
+
 
 ## Exercise #3: Form handling (POST)
 
