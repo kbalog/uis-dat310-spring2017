@@ -8,6 +8,10 @@
 | [#4 JavaScript](assignment-4/) | 02/02 | 17/02 12:00 | 4A=0.7p, 4B=1.2p, 4A+B=1.3p | |
 | [#5 jQuery](assignment-5/) | 16/02 | 24/02 12:00 | 5A=0.7p, 5B=1.2p, 5A+B=1.3p | |
 | [#6 Python](assignment-6/) | 23/02 | 03/03 12:00 | 6A=0.7p, 6B=0.9p, 6A+B=1.0p | |
+| #7 Webshop | 16/03 | 24/03 12:00 | 7=1.3p | |
+| #8 AJAX | 23/03 | 31/03 12:00 | 8=0.9p | |
+| #9 Webshop admin | 30/03 | 14/04 12:00 | 9=1.4p | |
+| #10 Web APIs | 06/04 | 19/04 12:00 | 10=1p | |
 
 
 When there are two options for an assignment (A and B), you can decide to do either of them or both.

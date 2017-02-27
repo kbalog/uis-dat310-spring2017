@@ -31,26 +31,26 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 20/02 Mon | Python Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-i), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
 | 23/02 Thu | Python Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-ii), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
 | 24/02 Fri | Lab | |
-| 27/02 Mon | Web protocols | |
-| 02/03 Thu | | |
+| 27/02 Mon | Web protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols), [examples](examples/python/http), [exercises](exercises/python/http), [solutions](solutions/python/http) |
+| 02/03 Thu | Server-side programming | |
 | 03/03 Fri | Lab | |
 | 06/03 Mon | Midterm exam /Part I. | |
 | 09/03 Thu | Midterm exam /Part II. | |
 | 10/03 Fri | Lab | |
-| 13/03 Mon | | |
-| 16/03 Thu | | |
+| 13/03 Mon | Server-side programming | |
+| 16/03 Thu | Server-side programming | |
 | 17/03 Fri | Lab | |
-| 20/03 Mon | | |
-| 23/03 Thu | | |
+| 20/03 Mon | Server-side programming | |
+| 23/03 Thu | AJAX | |
 | 24/03 Fri | Lab | |
-| 27/03 Mon | | |
-| 30/03 Thu | | |
+| 27/03 Mon | Bootstrap | |
+| 30/03 Thu | Bootstrap add-ons | |
 | 31/03 Fri | Lab | |
-| 03/04 Mon | | |
-| 06/04 Thu | | |
+| 03/04 Mon | Web APIs | |
+| 06/04 Thu | Web APIs | |
 | 07/04 Fri | Lab | |
 | break |
-| 20/04 Thu | | |
+| 20/04 Thu | Review | |
 | 21/04 Fri | Lab | |
 | 24/04 Mon | Trial exam /Part I. | |
 | 27/04 Thu | Trial exam /Part II. | |
