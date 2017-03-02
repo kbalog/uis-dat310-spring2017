@@ -33,3 +33,5 @@ Otherwise return "Unknown post code ({postcode})"
 ## Exercise #2: Form handling
 
 Make a HTML form with some input fields and set its action such that it is submitted to your Flask application (using POST). Your application should output a table with the information that was submitted.
+
+Use a static css file and templates!
