@@ -14,9 +14,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/test")
-def test():
-    return render_template("base.html", users=["john", "liza", "mary"])
+@app.route("/members")
+def members():
+    return render_template("members.html", users=["john", "liza", "mary"])
 
 
 if __name__ == "__main__":
