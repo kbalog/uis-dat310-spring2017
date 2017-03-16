@@ -32,15 +32,15 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 23/02 Thu | Python Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-ii), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
 | 24/02 Fri | Lab | |
 | 27/02 Mon | Web protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols), [examples](examples/python/http), [exercises](exercises/python/http), [solutions](solutions/python/http) |
-| 02/03 Thu | Server-side programming | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-i), [examples](examples/python/flask), [exercises](exercises/python/flask), [solutions](solutions/python/flask) |
+| 02/03 Thu | Server-side programming I. (handling requests) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-i), [examples](examples/python/flask), [exercises](exercises/python/flask), [solutions](solutions/python/flask) |
 | 03/03 Fri | Lab | |
 | 06/03 Mon | Midterm exam /Part I. | |
 | 09/03 Thu | Midterm exam /Part II. | |
 | 10/03 Fri | Lab | |
 | 13/03 Mon | No lecture | |
-| 16/03 Thu | Server-side programming | |
+| 16/03 Thu | Server-side programming II. (templating) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-ii), [examples](examples/python/flask), [exercises](exercises/python/flask2), [solutions](solutions/python/flask2) |
 | 17/03 Fri | Lab | |
-| 20/03 Mon | Server-side programming | |
+| 20/03 Mon | Server-side programming III. (handling data)| |
 | 23/03 Thu | AJAX | |
 | 24/03 Fri | Lab | |
 | 27/03 Mon | Bootstrap | |

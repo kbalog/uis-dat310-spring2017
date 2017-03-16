@@ -1,4 +1,4 @@
-# Python Flask exercises
+# Server Side Programming exercises (Python, Flask), Part I.
 
 Documentation: [Flask quickstart](http://flask.pocoo.org/docs/0.12/quickstart/#quickstart)
 
@@ -28,10 +28,3 @@ If the post code exists, return the text "Post code {postcode} is {city}"
 
 Otherwise return "Unknown post code ({postcode})"
 ![Exercise1/3](images/exercise1_3.png)
-
-
-## Exercise #2: Form handling
-
-Make a HTML form with some input fields and set its action such that it is submitted to your Flask application (using POST). Your application should output a table with the information that was submitted.
-
-Use a static css file and templates!
