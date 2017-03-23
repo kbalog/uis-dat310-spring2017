@@ -41,7 +41,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 16/03 Thu | Server-side programming II. (templating) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-ii), [examples](examples/python/flask), [exercises](exercises/python/flask2), [solutions](solutions/python/flask2) |
 | 17/03 Fri | Lab | |
 | 20/03 Mon | No lecture | |
-| 23/03 Thu | Server-side programming III. (handling data) | |
+| 23/03 Thu | Server-side programming III. (handling data) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iii), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3) |
 | 24/03 Fri | Lab | |
 | 27/03 Mon | AJAX | |
 | 30/03 Thu | Bootstrap | |
