@@ -26,6 +26,8 @@ The skeleton of the solution is provided, which implements the main program logi
 
 Commit and push files to GitHub.
 
+You also need to submit a dump of your database in a `database.sql` file.  Executing this file should create all the tables that are needed for your application and should insert product data.
+
 
 # Øving 7 - Webshop
 
@@ -55,3 +57,5 @@ Du kan bygge videre på dine egne filer du har fra den tidligere innleveringen, 
 Du er gitt grunnkoden, som implementerer hovedfunksjonene til programmet som du ikke trenger å tenke på.
 
 Last opp til GitHub (commit og push).
+
+Du må også lage en dump av databasen i en `database.sql` fil. Utfører denne filen skal lage alle tabellene som er nødvendig for din applikasjon og skal sette inn produktdata.
