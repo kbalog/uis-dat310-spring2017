@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MySQL operations</title>
+    <title>Flask MySQL example</title>
     <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
 </head>
 <body>
     {% block content %}{% endblock %}
+    {% block nav %}
+        {% include "nav.html" %}
+    {% endblock %}
 </body>
 </html>

@@ -1,9 +1,10 @@
-{% extends "base.html" %}
+{% extends "layout.html" %}
 {% block content %}
-    <ul>
-        <li><a href="{{ url_for("init") }}">Initialize DB</a></li>
-        <li><a href="">List all postcodes</a></li>
-        <li><a href="">Search postcode</a></li>
-        <li><a href="">Add postcode</a></li>
-    </ul>
+<h2>Index</h2>
+<ul>
+    <li><a href="{{ url_for("init") }}">Initialize DB</a></li>
+    <li><a href="{{ url_for("list_all") }}">List all postcodes</a></li>
+    <li><a href="{{ url_for("add") }}">Add postcode</a></li>
+</ul>
 {% endblock %}
+{% block nav %}{# no nav block on index page #}{% endblock %}

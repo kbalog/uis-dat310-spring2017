@@ -19,11 +19,10 @@
   * Add some movies to the table.
   * You may create the table and add data using the [movies.sql](movies.sql) script.
   * Install MySQL Connector/Python
+    - on the command line: `conda install mysql-connector-python`
 
-    ```conda install mysql-connector-python```
 
-
-## Exercise #1: Listing movies
+## Exercise #1a: Listing movies
 
 Update [exercise 1 from the last lecture](../../../../solutions/python/flask2/ex_1) such that movies are loaded from the MySQL database.
 
@@ -35,17 +34,10 @@ Specifically,
   * Notice that are not storing the IMDB URLs in the database. You'll need to generate the links to the IMDB movie pages from the `imdb_id` field. Do that in the `movies.html` template file (i.e., not in `app.py`).
 
 The output should look exactly as before:
+![Exercise1](images/exercise1.png)
 
 
-
-
-
-## Exercise #2: Searing movies
-
-
-
-
-## Exercise #3: Movie details
+## Exercise #2: Movie details
 
 Generate a separate "details" page for each movie.
 
@@ -54,7 +46,3 @@ Generate a separate "details" page for each movie.
 Since we have two types of pages now (movie listing and movie details), we need to reorganize our templates a bit.
 
   * Make a `base.html` file that contain a common header and footer.
-
-
-
-## Exercise #4: Adding movies

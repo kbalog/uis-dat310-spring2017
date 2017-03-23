@@ -1,7 +1,5 @@
 """
-Using templates
-
-@author: Krisztian Balog
+Flask: Using templates
 """
 
 from flask import Flask, render_template

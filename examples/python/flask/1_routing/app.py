@@ -1,7 +1,5 @@
 """
-Routing and URL building with Flask
-
-@author: Krisztian Balog
+Flask: Routing and URL building
 """
 from flask import Flask
 

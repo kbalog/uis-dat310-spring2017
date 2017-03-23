@@ -9,3 +9,12 @@
     color: green;
     padding: 1em;
 }
+
+td {
+    border: 1px solid #cccccc;
+    padding: 0.1em;
+}
+
+.nav {
+    margin-top: 1em;
+}

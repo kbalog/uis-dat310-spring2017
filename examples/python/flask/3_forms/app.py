@@ -1,7 +1,5 @@
 """
-Form handling
-
-@author: Krisztian Balog
+Flask: Form handling
 """
 
 from flask import Flask, url_for, redirect, request

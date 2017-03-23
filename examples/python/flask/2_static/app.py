@@ -1,7 +1,5 @@
 """
-Serving static files
-
-@author: Krisztian Balog
+Flask: Serving static files
 """
 
 from flask import Flask, url_for

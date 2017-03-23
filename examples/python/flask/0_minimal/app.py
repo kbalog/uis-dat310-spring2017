@@ -1,7 +1,5 @@
 """
-A minimal web application in flask
-
-@author: Krisztian Balog
+Flask: A minimal web application
 """
 
 from flask import Flask

@@ -2,8 +2,6 @@
 Making a HTTP request from python using requests package.
 
 http://docs.python-requests.org/en/master/
-
-@author: Krisztian Balog
 """
 
 import requests

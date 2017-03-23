@@ -2,8 +2,6 @@
 Simple HTTP server.
 
 https://docs.python.org/3/library/http.server.html
-
-@author: Krisztian Balog
 """
 
 from http.server import BaseHTTPRequestHandler, HTTPServer

@@ -3,8 +3,6 @@ Making a HTTP request from python using the urllib package.
 
 See https://docs.python.org/3.5/library/urllib.request.html
 For read(), see https://docs.python.org/3.3/tutorial/inputoutput.html#methods-of-file-objects
-
-@author: Krisztian Balog
 """
 
 import urllib.request

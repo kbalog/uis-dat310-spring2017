@@ -1,20 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {% block head %}
-        <link rel="stylesheet" href="style.css"/>
-        <title>{% block title %}{% endblock %} - My Webpage</title>
-    {% endblock %}
-</head>
-<body>
-
-<div id="content">{% block content %}{% endblock %}</div>
-
-<div id="footer">
-    {% block footer %}
-        &copy; 2017
-    {% endblock %}
-</div>
-
-</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+<h2>Listing all postcodes</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Postcode</th>
+        <th>Location</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for pc in postcodes %}
+    <tr>
+        <td>{{ pc.postcode }}</td>
+        <td>{{ pc.location }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
