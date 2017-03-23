@@ -1,8 +1,8 @@
 """
-Exercise #1: Listing movies
+Exercise #2: Movie details
 """
 
-from flask import Flask, render_template, g
+from flask import Flask, render_template, g, request
 import mysql.connector
 
 app = Flask(__name__)
@@ -47,6 +47,21 @@ def index():
                 "synopsis": synopsis
             })
         return render_template("movies.html", movies=movies)
+    except mysql.connector.Error as err:
+        return render_template("error.html", msg="Error querying data")
+    finally:
+        cur.close()
+
+
+@app.route("/movie/<imdb_id>")
+def movie(imdb_id):
+    db = get_db()
+    cur = db.cursor()
+    try:
+        sql = "SELECT title, year, rating, synopsis FROM movies WHERE imdb_id=%s"
+        cur.execute(sql, (imdb_id,))
+        (title, year, rating, synopsis) = cur.fetchone()
+        return render_template("movie.html", imdb_id=imdb_id, title=title, year=year, rating=rating, synopsis=synopsis)
     except mysql.connector.Error as err:
         return render_template("error.html", msg="Error querying data")
     finally:

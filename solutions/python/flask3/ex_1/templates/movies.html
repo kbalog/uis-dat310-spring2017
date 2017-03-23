@@ -24,7 +24,7 @@
             <td>{{ movie.title }}</td>
             <td>{{ movie.year }}</td>
             <td>{{ movie.rating }}</td>
-            <td>{{ movie.synopsis|default("<em>No synopsis is available</em>")|safe|truncate(80) }}
+            <td>{{ movie.synopsis|default("<em>No synopsis is available</em>", true)|safe|truncate(80) }}
                 <br /><a href="http://www.imdb.com/title/{{ movie.imdb_id }}" target="_blank">http://www.imdb.com/title/{{ movie.imdb_id }}</a></td>
         </tr>
     {% endfor %}

@@ -44,3 +44,6 @@ Generate a separate "details" page for each movie.
 
   * Remove the links to the IMDB profile page from the movie listing. Instead, make the title of the movie a link to `/movie/<movie_id>`, where `movie_id` refers to the `id` field in the `movies` table.
   * Make a `layout.html` file that contain a common header and footer. The movie listing and movie details pages should extend `layout.html`.
+
+![Exercise2/1](images/exercise2_1.png)
+![Exercise2/2](images/exercise2_2.png)
