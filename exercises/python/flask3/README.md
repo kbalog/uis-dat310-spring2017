@@ -2,7 +2,7 @@
 
   * [MySQL Connector/Python](https://dev.mysql.com/doc/connector-python/en/)
   * [Flask QuickStart](http://flask.pocoo.org/docs/0.12/quickstart/)
-  * [Jinja documentation](http://jinja.pocoo.org/docs/2.9/)
+  * [Jinja Templates](http://jinja.pocoo.org/docs/2.9/templates/)
 
 
 ## Exercise #0: Set up MySQL
