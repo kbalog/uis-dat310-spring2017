@@ -22,7 +22,7 @@
     - on the command line: `conda install mysql-connector-python`
 
 
-## Exercise #1a: Listing movies
+## Exercise #1: Listing movies
 
 Update [exercise 1 from the last lecture](../../../../solutions/python/flask2/ex_1) such that movies are loaded from the MySQL database.
 
@@ -42,7 +42,4 @@ The output should look exactly as before:
 Generate a separate "details" page for each movie.
 
   * Remove the links to the IMDB profile page from the movie listing. Instead, make the title of the movie a link to `/movie/<movie_id>`, where `movie_id` refers to the `id` field in the `movies` table.
-
-Since we have two types of pages now (movie listing and movie details), we need to reorganize our templates a bit.
-
-  * Make a `base.html` file that contain a common header and footer.
+  * Make a `layout.html` file that contain a common header and footer. The movie listing and movie details pages should extend `layout.html`.
