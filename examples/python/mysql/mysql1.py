@@ -84,7 +84,6 @@ def query_data(conn):
         cur.close()
 
 
-
 if __name__ == "__main__":
 
     try:
