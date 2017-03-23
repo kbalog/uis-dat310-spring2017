@@ -55,6 +55,7 @@ def match(movie, keywords, year_from, year_to):
 
     return True
 
+
 @app.route("/")
 def index():
     # get parameters from URL
@@ -65,8 +66,8 @@ def index():
 
     matches = []  # holds the list of matching movies
     for movie in MOVIES:
-        if match(movie, keywords, year_from, year_to):  # if search query is provided
-           matches.append(movie)
+        if match(movie, keywords, year_from, year_to):
+            matches.append(movie)
 
     return render_template("movies.html", movies=matches, query=query, year_from=year_from, year_to=year_to)
 
