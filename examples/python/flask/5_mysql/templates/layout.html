@@ -6,9 +6,18 @@
     <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
 </head>
 <body>
-    {% block content %}{% endblock %}
-    {% block nav %}
-        {% include "nav.html" %}
-    {% endblock %}
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div class="success">
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+{% block content %}{% endblock %}
+{% block nav %}
+    {% include "nav.html" %}
+{% endblock %}
 </body>
 </html>

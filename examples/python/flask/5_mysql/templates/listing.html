@@ -6,6 +6,7 @@
     <tr>
         <th>Postcode</th>
         <th>Location</th>
+        <th>Operations</th>
     </tr>
     </thead>
     <tbody>
@@ -13,6 +14,7 @@
     <tr>
         <td>{{ pc.postcode }}</td>
         <td>{{ pc.location }}</td>
+        <td><a href="{{ url_for("delete", postcode=pc["postcode"]) }}">Delete</a></td>
     </tr>
     {% endfor %}
     </tbody>
