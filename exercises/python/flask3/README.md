@@ -1,8 +1,8 @@
 # Server Side Programming exercises (Python, Flask), Part III.
 
   * [MySQL Connector/Python](https://dev.mysql.com/doc/connector-python/en/)
+  * [Flask QuickStart](http://flask.pocoo.org/docs/0.12/quickstart/)
 
-  * [PyMySQL](https://github.com/PyMySQL/PyMySQL/)
 
 ## Exercise #0: Set up MySQL
 
