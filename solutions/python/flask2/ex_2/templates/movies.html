@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Top movies</title>
-    <style>
-        .even {
-            background-color: #ECECEC;
-        }
-        .odd {
-            background-color: #CCCCCC;
-        }
-        a:visited {
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
 </head>
 <body>
+
+<form action="/">
+    <label>Search:<input type="text" name="query" size="20" value="{{ query|default("") }}"></label>
+    <label>From: <input type="number" name="year_from" min="1970" max="2017" value="{{ year_from|default("") }}"></label>
+    <label>To: <input type="number" name="year_to" min="1970" max="2017" value="{{ year_to|default("") }}"></label>
+    <input type="submit" value="Search">
+</form>
 
 <table>
     <thead>
