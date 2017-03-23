@@ -59,10 +59,10 @@ def match(movie, keywords, year_from, year_to):
 @app.route("/")
 def index():
     # get parameters from URL
-    query = request.args.get("query", None)
+    query = request.args.get("query", "")
     year_from = request.args.get("year_from", None)
     year_to = request.args.get("year_to", None)
-    keywords = query.split() if query else []
+    keywords = query.lower().split() if query else []
 
     matches = []  # holds the list of matching movies
     for movie in MOVIES:
