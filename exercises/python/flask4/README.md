@@ -42,3 +42,10 @@ The [skeleton of the app](ex_2/) is provided, which already includes the HTML pa
 
 ![Exercise2/1](images/exercise2_1.png)
 ![Exercise2/2](images/exercise2_2.png)
+
+
+## Exercise #2b: Shopping cart
+
+Extend the previous exercise such that the user can modify the quantities in the cart.
+
+![Exercise2b](images/exercise2b.png)
