@@ -43,7 +43,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 20/03 Mon | No lecture | |
 | 23/03 Thu | Server-side programming III. (MySQL) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iii), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3) |
 | 24/03 Fri | Lab | |
-| 27/03 Mon | Server-side programming IV. (cookies and sessions) | |
+| 27/03 Mon | Server-side programming IV. (cookies and sessions) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iv), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4) |
 | 30/03 Thu | AJAX | |
 | 31/03 Fri | Lab | |
 | 03/04 Mon | Bootstrap | |

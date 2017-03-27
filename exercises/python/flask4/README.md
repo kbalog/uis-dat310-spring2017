@@ -20,3 +20,25 @@ Visiting http://127.0.0.1:5000/ **before** the user's details are remembered:
 ![Exercise1/1](images/exercise1_1.png)
 Visiting http://127.0.0.1:5000/ **after** the user's details are remembered:
 ![Exercise1/2](images/exercise1_2.png)
+
+
+## Exercise #2: Shopping cart
+
+The task is to manage the contents of a shopping cart using sessions.
+
+  * List the contents of the shopping cart.
+  * Add a new product to the shopping cart.
+    - Adding is done via a form that uses a POST method.
+    - If the product is already in the shopping cart, increase its quantity.
+    - Return a `400` (Bad Request) HTTP error if product ID or quantity are missing. Otherwise show a success message.
+  * Remove a given product that is in the shopping cart.
+    - Removing products is done via a GET request (`/remove?product_id=xxx`).
+    - If the product to be removed is not in the shopping cart, then return a `400` HTTP error. Otherwise show a success message.
+  * Create a custom error page for error `400`.
+
+The [skeleton of the app](ex_2/) is provided, which already includes the HTML parts and a Python class for representing the shopping cart.  Complete the missing parts of `app.py`.
+
+  * Hint: save the contents of the shopping cart in the session, that is, the dict that is returned by `contents()`. When loading the cart's contents from the session, initialize the ShoppingCart class with what is stored in the session.
+
+![Exercise2/1](images/exercise2_1.png)
+![Exercise2/2](images/exercise2_2.png)
