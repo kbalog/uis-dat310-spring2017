@@ -7,6 +7,7 @@ from flask import Flask, render_template, request, redirect, url_for, make_respo
 app = Flask(__name__)
 app.debug = True
 
+
 @app.route("/")
 def index():
     counter = request.cookies.get("counter", 0)
@@ -16,9 +17,11 @@ def index():
 @app.route("/inc")
 def inc():
     counter = request.cookies.get("counter", "0")
-    resp = make_response(redirect(url_for("index")))
-    resp.set_cookie("counter", str(int(counter) + 1))
-    return resp
+    response = make_response(redirect(url_for("index")))
+    response.set_cookie("counter", str(int(counter) + 1))
+    response.set_cookie('id', "", expires=0)
+
+    return response
 
 
 if __name__ == "__main__":
