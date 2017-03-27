@@ -19,8 +19,6 @@ def inc():
     counter = request.cookies.get("counter", "0")
     response = make_response(redirect(url_for("index")))
     response.set_cookie("counter", str(int(counter) + 1))
-    response.set_cookie('id', "", expires=0)
-
     return response
 
 
