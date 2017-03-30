@@ -40,7 +40,11 @@ Solve Exercise #1 using jQuery.
 
 Specifically, write the error string returned by the server to the span with id `username_status` using the [load()](http://api.jquery.com/load/) jQuery method.
 
+The static HTML file and the server app are [given](ex_3/). You are not allowed to make changes to these! You only need to complete `exercise3.js`.
+
 
 ## Exercise 4: Inventory
 
 Solve Exercise #2 using jQuery.
+
+The static HTML file and the server app are [given](ex_4/). You are not allowed to make changes to these! You only need to complete `exercise4.js`.
