@@ -18,7 +18,7 @@ function getResponse() {
     xhr.send(vars);
 
     /* display loading bar */
-    document.getElementById("status").innerHTML = "<img src='static/loading.gif' />";
+    document.getElementById("status").innerHTML = "<img src='/static/loading.gif' />";
     /* hide button */
     document.getElementById("submit").style.display = "none";
 }
