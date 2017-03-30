@@ -32,3 +32,15 @@ Assume that there is an inventory database where each item has a 3-digit unique 
   - Complete `exercise2.js` to parse the JSON response and display the values in the corresponding form fields.
 
 ![Exercise2](images/exercise2.png)
+
+
+## Exercise 3: Checking username
+
+Solve Exercise #1 using jQuery.
+
+Specifically, write the error string returned by the server to the span with id `username_status` using the [load()](http://api.jquery.com/load/) jQuery method.
+
+
+## Exercise 4: Inventory
+
+Solve Exercise #2 using jQuery.
