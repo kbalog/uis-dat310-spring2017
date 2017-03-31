@@ -30,4 +30,29 @@ Commit and push files to GitHub.
 
 # Øving 8 - AJAX
 
-*Norsk oversettelse kommer snart*
+Oppgaven går ut på å lage en simpel webapplikasjon som lar brukerne bla gjennom musikkalbum ved hjelp av AJAX.
+
+  * Når brukeren åpner siden skal en liste med musikkalbum vises. Det høyreliggende panelet (`album_info` seksjonen) er tomt til å begynne med.
+  *	Når det klikkes på et album, skal følgende vises i høyre panel:
+    -	Albumcoveret
+    -	Spillelisten (Låtnummer, tittel, varighet)
+    -	Total varighet (i mm:ss format)
+  *	Alle disse operasjonene må bruke AJAX, med andre ord uten å laste inn hele siden på nytt. Python-applikasjonen på serversiden må sende data i JSON format.
+
+Du har fått utdelt et skjelett av løsningen som består av følgende filer:
+
+  *	`static/index.html` er siden som vises når du besøker http://127.0.0.1:5000. Du trenger ikke å gjøre endringer på denne filen.
+  * `static/index_static.html` er bare et statisk eksempel som du kan finne under http://127.0.0.1:5000/sample. Den viser deg hvordan siden skal se ut når brukeren har klikket på et album.
+  *	`static/style.css` er en stil-fil (kan endres på, men det er ikke en del av oppgaven)
+  * `app.py` er serverens Python-applikasjon.
+    - Den inkluderer en klasse for å representere en liste med album. Du må fylle inn det som mangler slik at den laster inn data fra `data/albums.txt` og `data/tracks.txt` filene. Du velger selv hvilken datastruktur for lagring av data du vil bruke.
+    - Den er allerede implementert slik at én instans av Albums klassen er brukt, så innlasting av filene skjer kun én gang (og ikke ved hvert request)
+  * `scripts.js` er hvor all JavaScript koden skal ligge. Du må tolke JSON responsene og oppdatere innholdet i de korresponderende div'ene i index.html filen.
+
+Tilleggsinformasjon:
+
+  *	Du kan bruke JavaScript eller jQuery for å sende HTTP forespørsler fra klientsiden.
+  *	Data-filene er under data-mappen i et tab-separert format. Låtene i et album burde vises i samme rekkefølge som i den filen. Albumrekkefølgen er villkårlig.
+  *	Tilfør applikasjonen din eksempeldata. Inkluder minst 5 album med minst 10 sanger i hvert album (du kan bruke eksisterende data, men du må uansett legge til 3 ytterligere album). Legg albumcoverene inn under `static/images` mappen.
+
+Commit og push filene til GitHub.
