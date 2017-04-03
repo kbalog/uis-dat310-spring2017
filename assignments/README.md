@@ -10,8 +10,8 @@
 | [#6 Python](assignment-6/) | 23/02 | 10/03 12:00 | 6A=0.7p, 6B=0.9p, 6A+B=1.0p | |
 | [#7 Webshop](assignment-7/) | 16/03 | 31/03 12:00 | 7=1.3p | |
 | [#8 AJAX](assignment-8/) | 30/03 | 07/04 12:00 | 8=0.9p | |
-| #9 Webshop admin | 03/04 | 21/04 12:00 | 9=1.4p | |
-| #10 Web APIs | 06/04 | 28/04 12:00 | 10=1p | |
+| #9 Webshop admin | 03/04 | 28/04 12:00 | 9=1.4p | |
+| #10 Web APIs | 06/04 | 20/04 12:00 | 10=1p | |
 
 
 When there are two options for an assignment (A and B), you can decide to do either of them or both.
