@@ -16,9 +16,11 @@ You need to use Flask with templating, Bootstrap, and MySQL for implementing the
         - Product name is not empty
         - Price and bonus price are not empty and are numbers
         - Bonus price cannot be higher than the normal price
+        - Photo is provided
     - If an error appears, then show an alert and remember the form values already filled in.
+    - Note that it is part of the task to be able to modify product photos. New products can only uploaded if a photo is provided.
   * Order management
-    - The user can list all the orders that have been registered.
+    - The admin user can list all the orders that have been registered.
     - Upon clicking on an order, show the order details, with links to the product pages.
     - Your database should contain at least 20 orders (You can generate "fake orders" with a script.)
   * Statistics
@@ -28,7 +30,7 @@ You need to use Flask with templating, Bootstrap, and MySQL for implementing the
     - When listing products or orders, show at most 10 products on a page and let the user paginate between pages.
     - All forms and alert/success messages must also be styled using Bootstrap.
 
-It is up to you how you align
+It is up to you how you organize this functionality on the admin user interface (i.e., what menu points you have, etc.).
 *Some example screenshots will be made available later, but these do not need to be strictly followed.*
 
 Commit and push files to GitHub. You also need to submit a dump of your database in a `database.sql` file.  Executing this file should create all the tables that are needed for your application and should insert product and order data.
