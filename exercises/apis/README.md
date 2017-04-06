@@ -23,7 +23,7 @@ Create a map using the Google Maps API that displays at least two markers and sh
 Get 5 recent photos of Stavanger from [Flickr's public feed](https://www.flickr.com/services/feeds/docs/photos_public/) using Python.
 Display them in a table title, date, tags, and a link to the photo’s page on Flickr.
 
-The [starter files](exercise3.py) help you to make a request and load the JSON response into a variable.  Set `params` according to what you need from Flickr, parse out photos from the returned results (`data`), and pass it on to the template. You will also need to complete the corresponding [template file](templates/exercise3.html).
+The [starter file](exercise3.py) helps you to make a request and load the JSON response into a variable.  Set `params` according to what you need from Flickr, parse out photos from the returned results (`data`), and pass it on to the template. You will also need to complete the corresponding [template file](templates/exercise3.html).
 
 Note: set `nojasoncallback=1` for raw JSON response in the request URL (`http://api.flickr.../photos_public.gne?nojsoncallback=1&param1=value1...`).
 
