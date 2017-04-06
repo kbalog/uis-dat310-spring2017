@@ -1,7 +1,5 @@
 # Assignment 9 - Webshop admin
 
-*DRAFT*
-
 Your task is to develop an admin back-end for the webshop using a combination of technologies (Flask, MySQL, Bootstrap).
 
 There are no starter files provided for this assignment.
@@ -38,4 +36,34 @@ Commit and push files to GitHub. You also need to submit a dump of your database
 
 # Øving 9 - Webshop admin
 
-*Norsk oversettelse kommer snart.*
+Din oppgave er å utvikle en admin back-end for webshop-siden ved bruk av en kombinasjon av teknologier (Flask, MySQL, Bootstrap).
+
+Det finnes ingen startfiler for denne oppgaven.
+Du må bruke Flask for tamplating, Bootstrap og MySQL for implementering av funksjonaliteten beskrevet under. Det er tillat å bruke eksterne Python packages/modules og Bootstrap components, plugins eller add-ons.
+
+  * Login
+    - All funksjonalitet beskrevet under skal bare være tilgjengelig for brukere logget inn som admin. Innlogging er basert på kombinasjon av brukernavn og passord.
+    - Det er ikke nødvendig å implementere en front-end funsjonalitet for å legge til nye admin-brukere. Men du må legge til en testbruker i din databasedump som vi kan bruke til testing, username: "test", password:"dat310A9". Du må lagre passord på en sikker måte i databasen (ergo, ingen raw passord strings).
+  * Product management
+    - Brukeren må ha muligheten til å liste opp, legge til, slette og endre produkter.
+    - På produkt edit/add formen, sjekk at
+        - Produktnavn ikke er tomt
+        - Pris og tilbudspris ikke er tom og at det er tall
+        - Tilbudspris kan ikke være høyere enn normalpris
+        - Bilde er gitt
+    - Hvis en feil oppstår skal det vises en alert og formverdiene som allerede er tastet inn skal huskes.
+    - Vær oppmerksom på at det er en del av oppgaven å kunne modifisere produktbilde. Nye produkter kan bare legges til om et bilde er gitt.
+  * Order management
+    - Admin-brukeren kan liste opp alle ordre som er registrert.
+    - Når man klikker inn på en ordre skal det vises ordredetaljer med link til produktsidene.
+    - Din database skal inneholde minst 20 ordre (du kan generere "fake ordre" med et skript).
+  * Statistics
+    - Gi et plott som viser antall ordre over tid. Dvs. for hver dag, vis antall ordre registrert den dagen.
+    - Gi en liste av de mest populære produktene, dvs. produkter det har blitt bestilt mest av. Vis produkt-id, produktnavn og totalt antall bestillinger av produktet.
+  * General
+    - Når produkter eller ordre listes opp, vis maks 10 produkter per side og la brukeren bla mellom sider.
+    - Alle former og alert/success messages skal også styles ved hjelp av Bootstrap
+
+Det er opp til deg hvordan du organiserer funksjonaliteten på admin-brukergrensesnittet (dvs. hvilke menypunkter du har med, etc.).
+
+Commit og push filene til GitHub. Du må også submitte en dump av databasen din i en `database.sql` fil. Kjøring av denne filen skal lage alle nødvendige tabeller for å kunne bruke din applikasjon og den skal sette inn produkt- og ordredata.
