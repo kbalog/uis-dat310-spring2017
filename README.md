@@ -47,7 +47,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 | 30/03 Thu | AJAX | [slides](https://speakerdeck.com/kbalog/web-programming-ajax), [examples](examples/ajax), [exercises](exercises/ajax), [solutions](solutions/ajax) |
 | 31/03 Fri | Lab | |
 | 03/04 Mon | Bootstrap | [slides](https://speakerdeck.com/kbalog/web-programming-bootstrap), [examples](examples/bootstrap), [exercises](exercises/bootstrap), [solutions](solutions/bootstrap) |
-| 06/04 Thu | Web APIs | |
+| 06/04 Thu | Web APIs | [slides](https://speakerdeck.com/kbalog/web-apis), [examples](examples/apis), [exercises](exercises/apis), [solutions](solutions/apis) |
 | 07/04 Fri | Lab | |
 | break |
 | 20/04 Thu | Review | |
