@@ -6,7 +6,7 @@ Create a map using the Google Maps API that displays a hiking route between a nu
 
 Hint: you will need to draw a polyline or polygon.
 
-See the [W3C tutorial](http://www.w3schools.com/googleapi/google_maps_overlays.asp) or the [official Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/) for help.
+See the [W3C tutorial](https://www.w3schools.com/graphics/google_maps_intro.asp) or the [official Google Maps API documentation](https://developers.google.com/maps/documentation/javascript/) for help.
 
 ![Exercise1](images/exercise1.png)
 
