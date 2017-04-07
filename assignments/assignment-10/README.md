@@ -66,13 +66,33 @@ This server program has three routes that can be accessed as GET requests:
     - `time_left`: -1 if the game has not yet started or has finished, otherwise the time left for the current player to move (in milliseconds)
     - `last_move`: if the game is already underway, it contains the last *valid move* (in `x,y,border` format); otherwise, it is empty.
     - `board_size`: the size of the board
-    - `board`: the current status of the board.  The board is represented as a 2-dimensional (nested) array, where the first dimension corresponds to the row index *y* (0..6) and the second dimension corresponds to the column index *x* (0..6). Each value corresponds to a square, using the data representation explained below.
+    - `board`: the current status of the board.  The board is represented as a 2-dimensional (nested) array, where the first dimension corresponds to the row index *y* and the second dimension corresponds to the column index *x*. Each value corresponds to a square, using the data representation explained below.
     - For example, this status corresponds to the figure below.
     ```
     {
-        TODO
+      {
+        "status_code": 201,
+        "status": "It's Player 1's turn",
+        "score_1": 3,
+        "score_2": 4,
+        "time_left": 3000,
+        "board_size": 7,
+        "last_move": "4,0,bottom",
+        "board": [
+          [0, 3, 25, 23, 12, 0, 0],
+          [0, 2, 30, 41, 35, 8, 0],
+          [0, 6, 11, 44, 38, 8, 0],
+          [0, 1, 0, 3, 9, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0],
+          [0, 0, 0, 0, 0, 0, 0]
+        ]
+      }
     }
     ```
+
+![Example](images/example.png)
+
   * The `/reg/<team_id>` request it to be called only once, to register your team. The value of team_id can be an alphanumerical string, at most 10 characters long.
     - If the registration is successful, you will get a JSON object back with response OK and whether you are Player 1 or 2. E.g.,
     ```
@@ -89,7 +109,7 @@ This server program has three routes that can be accessed as GET requests:
     }
     ```
     - As soon as both teams successfully registered, the game will automatically start. (This means that after you have received an OK response, you should start periodically requesting the status.)
-  * The `/move/<team_id>/<x,y,border>` route is to be used to make a move. The move is a triple with the *x* and *y* coordinates of the square and the side where you want to add a border; *border* can take `left`, `right`, `top`, and `bottom` as values.  In response, you will get back the current status of the game.
+  * The `/move/<team_id>/<x,y,border>` route is to be used to make a move. The move is a triple with the *x* (0..6) and *y* (0..6) coordinates of the square and the side where you want to add a border; *border* can take `left`, `right`, `top`, and `bottom` as values.  In response, you will get back the current status of the game.
     - For example, `/move/myTeam/1,2,top` will add a top border to the square at the `(1,2)` position.
     -  If your move was valid, then you will get back status_code `201` or `202` (depending on which player's turn it is next), or `301` or `302`, if that was the last move and the game has ended.
     - If it is not your turn to make a move or your move cannot be parsed, then it counts as an illegal move.  In this case, you will get back `401` or `402`, and the game will not continue.
@@ -134,8 +154,8 @@ You are given some tools to help you develop your game AI.
 Make sure the server is running, before using these.
 
   * The game server comes in a built-in graphical interface for monitoring the status of the game. It is available at http://localhost:5000/.
-    - The related code is under `cw/static`. All this page does is that it makes a GET request to `/status` using jQuery, and then updates the board, scores, and status on the page.
-  * `test.py` is a test script that makes a simple (fixed) sequence of moves on behalf of both players. As a first step, you could load the game monitor in the browser, then run test.py, to see what happens.
+    - The related code is under `cw/static`. All this page does is that it makes a GET request at every 0.2 sec to `/status` using jQuery, and then updates the board, scores, and status text on the page.
+  * `test.py` is a test script that makes a simple (fixed) sequence of moves on behalf of both players. As a first step, you could load the game monitor in a browser, then run `test.py`, to see what happens.
 
 Some notes for development:
 
