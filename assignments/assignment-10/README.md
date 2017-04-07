@@ -45,19 +45,11 @@ The objective of the game is to occupy the largest possible territory on a given
     - The program sends a valid move to the server.
     - The time limit is reached for the given turn.
     - The program presented an invalid segment (occupied or out of the table boundaries), or violated the communication protocol in any way. (If this happens, it automatically implicates the end of game as well.)
-  * For each turn, there is a time limit, within which the oncoming program should present a valid step, otherwise a timeout event will occur and the game will end immediately.
+  * For each turn, there is a time limit of 3 seconds, within which the oncoming program should present a valid step, otherwise a timeout event will occur and the game will end immediately.
   * The game will continue turn by turn, until one of the following conditions is met:
     - There are no more available free segments on the board. In that case the winner of the game is the program that has the higher score. Note: as the size of the board is odd, there is no possibility of achieving a draw.
     - One of the programs had a timeout event. In that case, the other program automatically wins.
     - One of the programs sends an invalid step to the server or violates the communication protocol. In that case, the other program automatically wins.
-
-
-## Data representation
-
-Each square is represented as a 6-bit number, where lower 4 bits corresponds to borders on each side of the square.
-Specifically, bits 1, 2, 4, and 8 correspond to top, right, bottom, and left borders, respectively.  The higher two bits correspond to whether the square has been occupied by Player 1 (16) or Player 2 (32). Note that only one of 16 and 32 may be True.  If a square has not been occupied, then both bit 16 and 32 are False.
-
-*TODO add illustration*
 
 
 ## Communication protocol
@@ -72,10 +64,10 @@ This server program has three routes that can be accessed as GET requests:
     - `score_1`: score of Player 1
     - `score_2`: score of Player 2  
     - `time_left`: -1 if the game has not yet started or has finished, otherwise the time left for the current player to move (in milliseconds)
-    - `last_move`: if the game is already underway, it contains the last move (in `x,y,border` format); otherwise, it is empty
+    - `last_move`: if the game is already underway, it contains the last *valid move* (in `x,y,border` format); otherwise, it is empty.
     - `board_size`: the size of the board
-    - `board`: the current status of the board  !!! EXPAND !!!
-    - For example
+    - `board`: the current status of the board.  The board is represented as a 2-dimensional (nested) array, where the first dimension corresponds to the row index *y* (0..6) and the second dimension corresponds to the column index *x* (0..6). Each value corresponds to a square, using the data representation explained below.
+    - For example, this status corresponds to the figure below.
     ```
     {
         TODO
@@ -102,6 +94,14 @@ This server program has three routes that can be accessed as GET requests:
     -  If your move was valid, then you will get back status_code `201` or `202` (depending on which player's turn it is next), or `301` or `302`, if that was the last move and the game has ended.
     - If it is not your turn to make a move or your move cannot be parsed, then it counts as an illegal move.  In this case, you will get back `401` or `402`, and the game will not continue.
     - If your move was sent too late (you timed out), then you will see `501` or `502` as the status_code and the game terminates.
+
+
+### Square representation
+
+Each square is represented as a 6-bit number, where lower 4 bits corresponds to borders on each side of the square.
+Specifically, the 1st, 2nd, 3rd, and 4th bits (from "right to left") correspond to top, right, bottom, and left borders, respectively.  The higher two bits correspond to whether the square has been occupied by Player 1 (5th bit) or Player 2 (6th bit). Note that only one of the 5th and 6th bits may be True.  If a square has not been occupied, then both the 5th and 6th bits are False.
+
+*TODO add illustration*
 
 
 ### Status codes
@@ -131,24 +131,27 @@ This server program has three routes that can be accessed as GET requests:
 ## Tools
 
 You are given some tools to help you develop your game AI.
-Make sure the server is running, before starting these.
+Make sure the server is running, before using these.
 
-  * `tools/monitor.html`: This web page provides a graphical interface that shows the current status of the  game. All it does is it makes a GET request to `/status` using jQuery, and displays.
-  * `tools/client.html`: You can use this page to play the game manually.  It issues requests to the `/reg` and `/move` routers.  If you want to simulate a 2-player game, then you need to open it twice, one for each player.
+  * The game server comes in a built-in graphical interface for monitoring the status of the game. It is available at http://localhost:5000/.
+    - The related code is under `cw/static`. All this page does is that it makes a GET request to `/status` using jQuery, and then updates the board, scores, and status on the page.
+  * `test.py` is a test script that makes a simple (fixed) sequence of moves on behalf of both players. As a first step, you could load the game monitor in the browser, then run test.py, to see what happens.
 
+Some notes for development:
 
-Additionally, you can turn off the timeout for the server by setting `app.config["TIMEOUT"]=-1` in `cw/game_server.py`. Bear in mind that we will be using a 3sec timeout for testing your program as well as during the Championship.
+  * You can turn off the timeout for the server by setting `TIMEOUT=-1` in `cw/game.py`. Bear in mind that we will be using a 3sec timeout for testing your program as well as during the Championship.
+  * The server also has a `/restart` "service" route which you can call to reset the game to the initial state.  This route is strictly to be used during development.
 
 
 ## Game AI
 
-You need to implement your game AI in `game_ai.py`.  Some initial code is already provided that registers itself (using a fixed team_id) and is then ready to make moves.
+You need to implement your game AI in `game_ai.py`.  Some initial code is already provided that registers itself (using a fixed team_id) and is then makes some (random) moves.
 
 Notes:
 
   * You need to make sure that your client can register itself in case the other team has chosen the same team_id.
-  * You are free to make any changes to this code. But make sure that your client can be run as `python game_ai.py` using Python 3.5.
-  * You need to wait at least 0.1sec between making consecutive requests (this is already implemented).
+  * You are free to make any changes to this code, but make sure that your client can be run as `python game_ai.py` using Python 3.5.
+  * You need to wait at least 0.2sec between making consecutive requests (this is already implemented).
   * You can reuse the `Board` class from the server if you want to.
 
 
