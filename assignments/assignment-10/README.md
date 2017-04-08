@@ -54,7 +54,7 @@ The objective of the game is to occupy the largest possible territory on a given
 
 ## Communication protocol
 
-You can start the server by running `game_server.py` under the `cw` folder. The same server program will be used for testing your delivery and for the championship. We will assume that the server is always running at `http://localhost:5000` (so make sure no other program occupies that port).
+You can start the server by running `game_server.py` under the `cw` folder. The same server program will be used for testing your delivery and for the championship. We will assume that the server is always running at `http://127.0.0.1:5000/` (so make sure no other program occupies that port).
 
 This server program has three routes that can be accessed as GET requests:
 
@@ -118,10 +118,10 @@ This server program has three routes that can be accessed as GET requests:
 
 ### Square representation
 
-Each square is represented as a 6-bit number, where lower 4 bits corresponds to borders on each side of the square.
-Specifically, the 1st, 2nd, 3rd, and 4th bits (from "right to left") correspond to top, right, bottom, and left borders, respectively.  The higher two bits correspond to whether the square has been occupied by Player 1 (5th bit) or Player 2 (6th bit). Note that only one of the 5th and 6th bits may be True.  If a square has not been occupied, then both the 5th and 6th bits are False.
+Each square is represented as a 6-bit number.  The lower 4 bits corresponds to borders on each side of the square,
+specifically, the 1st, 2nd, 3rd, and 4th bits (from "right to left") correspond to top, right, bottom, and left borders, respectively.  The higher two bits correspond to whether the square has been occupied by Player 1 (5th bit) or Player 2 (6th bit). Note that only one of the 5th and 6th bits may be True.  If a square has not been occupied, then both the 5th and 6th bits are False.
 
-*TODO add illustration*
+![Squares](images/squares.png)
 
 
 ### Status codes
@@ -153,9 +153,10 @@ Specifically, the 1st, 2nd, 3rd, and 4th bits (from "right to left") correspond 
 You are given some tools to help you develop your game AI.
 Make sure the server is running, before using these.
 
-  * The game server comes in a built-in graphical interface for monitoring the status of the game. It is available at http://localhost:5000/.
+  * The game server comes in a built-in graphical interface for monitoring the status of the game. It is available at http://127.0.0.1:5000/.
     - The related code is under `cw/static`. All this page does is that it makes a GET request at every 0.2 sec to `/status` using jQuery, and then updates the board, scores, and status text on the page.
-  * `test.py` is a test script that makes a simple (fixed) sequence of moves on behalf of both players. As a first step, you could load the game monitor in a browser, then run `test.py`, to see what happens.
+    - Mind that using http://localhost:5000 in the browser won't work (because the code would violate the same-origin principle). You either need to use http://127.0.0.1:5000/ or update the `SERVER` variable to localhost in `cw/static/game.js`.
+  * `test.py` is a test script that makes a simple (fixed) sequence of moves on behalf of both players. To get started with this assignment, you might want to load the game monitor in a browser, then run `test.py` to see what happens.
 
 Some notes for development:
 
@@ -165,7 +166,9 @@ Some notes for development:
 
 ## Game AI
 
-You need to implement your game AI in `game_ai.py`.  Some initial code is already provided that registers itself (using a fixed team_id) and is then makes some (random) moves.
+You need to implement your game AI in `game_ai.py`.  This is the only file where you need to make changes, and submit it on GitHub.
+
+Some initial code is already provided that registers itself (using a fixed team_id) and is then makes some (random) moves.
 
 Notes:
 
