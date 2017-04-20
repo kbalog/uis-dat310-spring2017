@@ -1,5 +1,11 @@
 # Assignment 9 - Webshop admin
 
+## Updates
+
+  * File upload example has been added [under the flask examples](/examples/python/flask/8_file_upload). See also the [Flask documentation](http://flask.pocoo.org/docs/0.12/patterns/fileuploads/).
+
+## Task
+
 Your task is to develop an admin back-end for the webshop using a combination of technologies (Flask, MySQL, Bootstrap).
 
 There are no starter files provided for this assignment.
