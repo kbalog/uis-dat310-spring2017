@@ -3,8 +3,8 @@
 ## Updates
 
   * File upload example has been added [under the flask examples](/examples/python/flask/8_file_upload). See also the [Flask documentation](http://flask.pocoo.org/docs/0.12/patterns/fileuploads/).
-  * For plotting, you may use a JavaScript library, e.g., [D3.js](https://d3js.org/) or [Chart.js](http://www.chartjs.org/).
-    - E.g., [bar chart in D3.js](http://bl.ocks.org/d3noob/8952219) or [line chart in Chart.js](http://www.chartjs.org/docs/#line-chart-introduction).
+  * For plotting, you may use a JavaScript library, e.g., [D3.js](https://d3js.org/), [Chart.js](http://www.chartjs.org/), [CanvasJS](http://canvasjs.com/), or [one of these libraries](https://www.sitepoint.com/15-best-javascript-charting-libraries/).
+    - Some specific examples using [D3.js](http://bl.ocks.org/d3noob/8952219), [Chart.js](http://www.chartjs.org/docs/#line-chart-introduction), or [CanvasJS](http://canvasjs.com/html5-javascript-line-chart/).
 
 ## Task
 
