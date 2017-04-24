@@ -13,3 +13,4 @@ For all these examples, run `app.py` then go to http://127.0.0.1:5000/ in your b
 | [6_cookies](6_cookies/) | Using Cookies |
 | [7_sessions](7_sessions/) | Using sessions |
 | [8_file_upload](8_file_upload/) | File upload |
+| [9_login](9_login/) | Login (using hashed password) |
