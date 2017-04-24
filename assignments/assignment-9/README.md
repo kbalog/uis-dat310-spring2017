@@ -2,6 +2,7 @@
 
 ## Updates
 
+  * A dump of MySQL table structures can be found in [tables.sql](tables.sql) (meant for those that didn't do Assignment 7). 
   * Login example has been added [under the flask examples](/examples/python/flask/9_login).
   * File upload example has been added [under the flask examples](/examples/python/flask/8_file_upload). See also the [Flask documentation](http://flask.pocoo.org/docs/0.12/patterns/fileuploads/).
   * For plotting, you may use a JavaScript library, e.g., [D3.js](https://d3js.org/), [Chart.js](http://www.chartjs.org/), [CanvasJS](http://canvasjs.com/), or [one of these libraries](https://www.sitepoint.com/15-best-javascript-charting-libraries/).
