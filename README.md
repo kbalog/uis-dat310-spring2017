@@ -4,6 +4,7 @@ This repository contains examples and exercises from the 2017 spring DAT310 Web 
 
   - [Assignments](assignments/) (and [how to hand them in on GitHub](HOWTO_GitHub.md))
   - [Online course admin](http://bit.ly/uis-dat310)
+  - [Exam information](Exam_info.md)
   - Student assistants contact: dat310help@googlegroups.com
 
 ## Schedule
