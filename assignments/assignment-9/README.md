@@ -2,7 +2,8 @@
 
 ## Updates
 
-  * A dump of MySQL table structures can be found in [tables.sql](tables.sql) (meant for those that didn't do Assignment 7). 
+  * A set of [example screenshots](screenshots/) is made available. These are only meant to give you an overall idea of the functionality that you have to implement (your solution doesn't need to look exactly like this).
+  * A dump of MySQL table structures can be found in [tables.sql](tables.sql) (meant for those that didn't do Assignment 7).
   * Login example has been added [under the flask examples](/examples/python/flask/9_login).
   * File upload example has been added [under the flask examples](/examples/python/flask/8_file_upload). See also the [Flask documentation](http://flask.pocoo.org/docs/0.12/patterns/fileuploads/).
   * For plotting, you may use a JavaScript library, e.g., [D3.js](https://d3js.org/), [Chart.js](http://www.chartjs.org/), [CanvasJS](http://canvasjs.com/), or [one of these libraries](https://www.sitepoint.com/15-best-javascript-charting-libraries/).
@@ -35,7 +36,7 @@ You need to use Flask with templating, Bootstrap, and MySQL for implementing the
     - Provide a plot which shows the number of orders over time. I.e., for each day, show the number of orders that were registered on that day.
     - Provide a list of the "most popular products", i.e., products that have been ordered the most. Show the product ID, product name, and the total order quantity for that product.
   * General
-    - When listing products or orders, show at most 10 products on a page and let the user paginate between pages.
+    - When listing products or orders, show at most 10 items on a page and let the user paginate between pages.
     - All forms and alert/success messages must also be styled using Bootstrap.
 
 It is up to you how you organize this functionality on the admin user interface (i.e., what menu points you have, etc.).
@@ -71,7 +72,7 @@ Du må bruke Flask for tamplating, Bootstrap og MySQL for implementering av funk
     - Gi et plott som viser antall ordre over tid. Dvs. for hver dag, vis antall ordre registrert den dagen.
     - Gi en liste av de mest populære produktene, dvs. produkter det har blitt bestilt mest av. Vis produkt-id, produktnavn og totalt antall bestillinger av produktet.
   * General
-    - Når produkter eller ordre listes opp, vis maks 10 produkter per side og la brukeren bla mellom sider.
+    - Når produkter eller ordre listes opp, vis maks 10 elementer per side og la brukeren bla mellom sider.
     - Alle former og alert/success messages skal også styles ved hjelp av Bootstrap
 
 Det er opp til deg hvordan du organiserer funksjonaliteten på admin-brukergrensesnittet (dvs. hvilke menypunkter du har med, etc.).
