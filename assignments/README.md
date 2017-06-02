@@ -6,12 +6,12 @@
 | [#2 CSS](assignment-2/) | 19/01 | 27/01 12:00 | 2A=0.7p, 2B=0.8p, 2A+B=0.9p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/2b/solution) |
 | [#3 Webshop prototype](assignment-3/) | 26/01 | 10/02 12:00 | 3=1.5p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/3/solution) |
 | [#4 JavaScript](assignment-4/) | 02/02 | 17/02 12:00 | 4A=0.7p, 4B=1.2p, 4A+B=1.3p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/4b/solution) |
-| [#5 jQuery](assignment-5/) | 16/02 | 24/02 12:00 | 5A=0.7p, 5B=1.2p, 5A+B=1.3p | |
+| [#5 jQuery](assignment-5/) | 16/02 | 24/02 12:00 | 5A=0.7p, 5B=1.2p, 5A+B=1.3p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/5b/solution) |
 | [#6 Python](assignment-6/) | 23/02 | 10/03 12:00 | 6A=0.7p, 6B=0.9p, 6A+B=1.0p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/6b/solution) |
-| [#7 Webshop](assignment-7/) | 16/03 | 31/03 12:00 | 7=1.3p | |
-| [#8 AJAX](assignment-8/) | 30/03 | 07/04 12:00 | 8=0.9p | |
-| [#9 Webshop admin](assignment-9/) | 03/04 | 01/05 08:00 | 9=1.4p | |
-| [#10 Circuit Wars](assignment-10/) | 06/04 | 20/04 12:00 | 10=1p | |
+| [#7 Webshop](assignment-7/) | 16/03 | 31/03 12:00 | 7=1.3p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/7/solution) |
+| [#8 AJAX](assignment-8/) | 30/03 | 07/04 12:00 | 8=0.9p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/8/solution) |
+| [#9 Webshop admin](assignment-9/) | 03/04 | 01/05 08:00 | 9=1.4p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/9/solution) |
+| [#10 Circuit Wars](assignment-10/) | 06/04 | 20/04 12:00 | 10=1p | [solution](https://github.com/uis-dat310-spring2017/assignments-2017/tree/master/10/solution) |
 
 
 When there are two options for an assignment (A and B), you can decide to do either of them or both.
